@@ -1,0 +1,63 @@
+/* Thème Data — corporate, sombre, motifs « dashboard ». */
+
+:root {
+  --bg: #0b1220;
+  --surface: #141d31;
+  --surface-soft: #0f1728;
+  --border: #243350;
+  --text: #e8eef7;
+  --muted: #9fb0c9;
+  --accent: #38bdf8;
+  --on-accent: #062033;
+  --accent-soft: rgba(56, 189, 248, 0.12);
+  --header-bg: rgba(11, 18, 32, 0.85);
+  --font-display: "Segoe UI", system-ui, sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Héros : halo cyan + grille façon tableau de bord */
+.hero--data {
+  background:
+    radial-gradient(1100px 480px at 82% -10%, rgba(56, 189, 248, 0.16), transparent 60%),
+    linear-gradient(180deg, #0b1220, #0d1526);
+}
+
+.hero--data::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(56, 189, 248, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+  -webkit-mask-image: linear-gradient(180deg, #000 25%, transparent 90%);
+  mask-image: linear-gradient(180deg, #000 25%, transparent 90%);
+}
+
+/* Badges outils */
+.tool-badge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 3.2rem;
+  height: 3.2rem;
+  padding: 0 0.7rem;
+  border-radius: 0.8rem;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.tool-sap {
+  background: #0a6ed1;
+}
+
+.tool-pbi {
+  background: #f2c811;
+  color: #3f3200;
+}
+
+.tool-qlik {
+  background: #009845;
+}

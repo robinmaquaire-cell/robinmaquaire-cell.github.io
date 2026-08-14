@@ -1,0 +1,45 @@
+/* Thème Kayak — nature, aquatique, lumineux. */
+
+:root {
+  --bg: #f2fafa;
+  --surface: #ffffff;
+  --surface-soft: #e4f2f3;
+  --border: #c9e3e5;
+  --text: #0f3a44;
+  --muted: #48707b;
+  --accent: #0d8a99;
+  --on-accent: #ffffff;
+  --accent-soft: rgba(13, 138, 153, 0.12);
+  --header-bg: rgba(242, 250, 250, 0.88);
+  --font-display: "Segoe UI", system-ui, sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Héros : du ciel vers l'eau */
+.hero--kayak {
+  background: linear-gradient(180deg, #d9f1f5 0%, #a8dde7 55%, #74c4d6 100%);
+  padding-bottom: 0;
+}
+
+.hero--kayak .hero-inner {
+  padding-bottom: 4rem;
+}
+
+.hero--kayak .lead {
+  color: #23566a;
+}
+
+/* Vague de transition entre le héros et la suite de la page */
+.wave-divider {
+  display: block;
+  width: 100%;
+  height: 70px;
+}
+
+.wave-divider path {
+  fill: var(--bg);
+}
+
+.card:hover {
+  box-shadow: 0 10px 28px rgba(13, 90, 112, 0.16);
+}

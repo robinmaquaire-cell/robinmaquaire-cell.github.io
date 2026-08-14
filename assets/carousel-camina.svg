@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Camina : carnet de voyage posé sur une carte, trace de randonnée et souvenirs épinglés">
+  <rect width="320" height="200" fill="#f3eee2"/>
+
+  <!-- reliefs / courbes de niveau -->
+  <g fill="none" stroke="#3f7d52" stroke-opacity="0.22" stroke-width="2">
+    <path d="M-10 62 C40 34 78 78 124 52 C168 27 210 66 258 44 C286 31 306 40 330 32"/>
+    <path d="M-10 82 C42 56 80 98 126 72 C170 47 212 86 260 64 C288 51 308 60 330 52"/>
+    <path d="M-10 158 C46 140 74 168 120 152 C168 136 206 164 254 146 C284 135 306 142 330 136"/>
+  </g>
+
+  <!-- rivière -->
+  <path d="M-6 122 C46 108 68 140 116 130 C164 120 190 150 240 138 C276 129 300 140 326 132"
+        fill="none" stroke="#3a7ca5" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- trace de randonnée -->
+  <path d="M52 168 C74 128 62 104 96 88 C130 72 146 96 178 78 C210 60 226 40 262 40"
+        fill="none" stroke="#c8893d" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="9 7"/>
+
+  <!-- épingles de souvenirs -->
+  <g>
+    <path d="M96 88 c0 0 -11 -13 -11 -21 a11 11 0 1 1 22 0 c0 8 -11 21 -11 21 z" fill="#3f7d52"/>
+    <circle cx="96" cy="66" r="4.2" fill="#f3eee2"/>
+    <path d="M178 78 c0 0 -11 -13 -11 -21 a11 11 0 1 1 22 0 c0 8 -11 21 -11 21 z" fill="#3f7d52"/>
+    <circle cx="178" cy="56" r="4.2" fill="#f3eee2"/>
+    <path d="M262 40 c0 0 -11 -13 -11 -21 a11 11 0 1 1 22 0 c0 8 -11 21 -11 21 z" fill="#c8893d"/>
+    <circle cx="262" cy="18" r="4.2" fill="#f3eee2"/>
+  </g>
+
+  <!-- carnet ouvert, posé sur la carte -->
+  <g transform="rotate(-5 176 148)">
+    <rect x="118" y="112" width="116" height="76" rx="6" fill="#ffffff" stroke="#ddd2bd" stroke-width="2"/>
+    <rect x="126" y="120" width="46" height="34" rx="3" fill="#e4efe7" stroke="#3f7d52" stroke-width="1.5"/>
+    <path d="M126 148 l13 -13 l11 10 l10 -14 l12 17 v2 h-46 z" fill="#3f7d52" fill-opacity="0.55"/>
+    <circle cx="140" cy="130" r="4" fill="#c8893d"/>
+    <g fill="#5b6b60" fill-opacity="0.5">
+      <rect x="180" y="122" width="46" height="4" rx="2"/>
+      <rect x="180" y="132" width="38" height="4" rx="2"/>
+      <rect x="180" y="142" width="44" height="4" rx="2"/>
+      <rect x="126" y="162" width="100" height="4" rx="2"/>
+      <rect x="126" y="172" width="72" height="4" rx="2"/>
+    </g>
+  </g>
+
+  <text x="20" y="34" font-family="Georgia, serif" font-size="19" font-style="italic" fill="#2f3b34">Camina</text>
+</svg>

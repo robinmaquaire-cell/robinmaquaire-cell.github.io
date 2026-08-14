@@ -1,0 +1,160 @@
+/* Thème Camina — papier, sentier, carte ancienne.
+   Palette reprise des tokens réels de l'application (§3.2 de sa doc). */
+
+:root {
+  --bg: #f3eee2;
+  --surface: #ffffff;
+  --surface-soft: #ece4d4;
+  --border: #ddd2bd;
+  --text: #2f3b34;
+  --muted: #5b6b60;
+  --accent: #3f7d52;
+  --on-accent: #ffffff;
+  --accent-soft: rgba(63, 125, 82, 0.12);
+  --header-bg: rgba(243, 238, 226, 0.9);
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --ocre: #c8893d;
+  --riviere: #3a7ca5;
+}
+
+/* Héros : papier vieilli, courbes de niveau discrètes */
+.hero--camina {
+  background:
+    radial-gradient(820px 420px at 88% -10%, rgba(200, 137, 61, 0.16), transparent 62%),
+    radial-gradient(620px 360px at 5% 110%, rgba(63, 125, 82, 0.12), transparent 60%),
+    var(--bg);
+}
+
+.hero--camina::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-radial-gradient(circle at 78% 12%,
+      transparent 0 26px,
+      rgba(47, 59, 52, 0.055) 26px 27px);
+  -webkit-mask-image: linear-gradient(180deg, #000 20%, transparent 92%);
+  mask-image: linear-gradient(180deg, #000 20%, transparent 92%);
+}
+
+.hero--camina h1 {
+  font-weight: 600;
+}
+
+/* Une pastille par technologie / trait marquant */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+/* Carte « en un coup d'œil » : le résumé chiffré du projet */
+.facts {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin-top: 2rem;
+}
+
+.fact {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 0.7rem;
+  padding: 1rem 1.2rem;
+}
+
+.fact dt {
+  font-size: 0.78rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+.fact dd {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* Jalons : ce qui est fait, ce qui vient */
+.milestones {
+  list-style: none;
+  margin-top: 1.5rem;
+  border-left: 2px dashed var(--border);
+  padding-left: 1.6rem;
+}
+
+.milestones li {
+  position: relative;
+  padding-bottom: 1.4rem;
+}
+
+.milestones li::before {
+  content: "";
+  position: absolute;
+  left: -2.02rem;
+  top: 0.45rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+
+.milestones li.done::before {
+  background: var(--accent);
+}
+
+.milestones li.next::before {
+  border-color: var(--ocre);
+}
+
+.milestones h3 {
+  font-size: 1.02rem;
+  margin-bottom: 0.2rem;
+}
+
+.milestones p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.milestones .state {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.milestones li.next .state {
+  background: rgba(200, 137, 61, 0.15);
+  color: #97621f;
+}
+
+.card:hover {
+  box-shadow: 0 10px 28px rgba(47, 59, 52, 0.16);
+}

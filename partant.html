@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partant&#8201;? — Organiser ses sorties entre amis</title>
+  <meta name="description" content="Partant ? : une web app pour proposer une sortie à ses proches, savoir qui vient et se répartir le matériel — sans noyer le groupe de discussion.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🙋</text></svg>">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/partant.css">
+</head>
+<body data-facet="partant">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Robin Maquaire</a>
+      <nav class="facet-carousel" aria-label="Changer de facette">
+        <a class="fc-arrow" href="kayak.html" aria-label="Facette précédente : Kayak">&#8249;</a>
+        <a class="fc-item fc-side fc-item--kayak" href="kayak.html">
+          <img src="assets/carousel-kayak.svg" alt="Aller à la facette Kayak">
+          <span class="fc-label">Kayak</span>
+        </a>
+        <span class="fc-item fc-center fc-item--partant" aria-current="page">
+          <img src="assets/carousel-partant.svg" alt="">
+          <span class="fc-label">Partant&#8201;?</span>
+        </span>
+        <a class="fc-item fc-side fc-item--camina" href="camina.html">
+          <img src="assets/carousel-camina.svg" alt="Aller à la facette Camina">
+          <span class="fc-label">Camina</span>
+        </a>
+        <a class="fc-arrow" href="camina.html" aria-label="Facette suivante : Camina">&#8250;</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero hero--partant">
+      <div class="hero-inner">
+        <span class="kicker">Projet · Web app en ligne</span>
+        <h1>Qui vient&#8239;? Qui ramène quoi&#8239;?</h1>
+        <p class="lead">Partant&#8201;? sert à proposer une sortie aux gens qu'on connaît pour de vrai,
+          savoir en un coup d'œil qui répond présent, et répartir le matériel — sans noyer
+          le groupe de discussion sous les messages.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://partants.app" rel="noopener">Ouvrir partants.app</a>
+          <a class="btn btn-ghost" href="#principe">Comment ça marche</a>
+        </div>
+        <div class="chips" aria-label="Traits marquants">
+          <span class="chip">Listes privées</span>
+          <span class="chip">Sans mot de passe</span>
+          <span class="chip">Mobile d'abord</span>
+          <span class="chip">Installable</span>
+          <span class="chip">Hébergé en France</span>
+        </div>
+        <div class="event-preview" aria-hidden="true">
+          <div class="ep-band"></div>
+          <div class="ep-body">
+            <div class="ep-date">Sam. 14 · 18 h 30</div>
+            <div class="ep-count">Dans 5 jours</div>
+            <div class="ep-title">Kayak au lac</div>
+            <div class="ep-meta">Base nautique · 6 partants / 8</div>
+            <div class="ep-actions">
+              <span class="ep-yes">Partant&#8201;!</span>
+              <span class="ep-no">Pas dispo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="principe">
+      <div class="section-inner">
+        <h2>Née d'un besoin de terrain</h2>
+        <p class="section-sub">Le cas d'usage fondateur, c'est le mien&nbsp;: proposer des séances de
+          kayak à une liste de personnes intéressées, qui répondent partant ou pas dispo et se
+          répartissent gilets, bidons et trousse de secours. Tout le reste en découle.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="picto">✉️</span>
+            <h3>Des listes privées, par lien</h3>
+            <p>On rejoint une liste par un lien d'invitation, jamais par recherche. Compte
+              minimal&nbsp;: un pseudo, un e-mail, une connexion par lien magique — aucun mot de
+              passe. La croissance se fait de proche en proche.</p>
+            <span class="tag">Listes privées · multi-administrateurs</span>
+          </article>
+          <article class="card">
+            <span class="picto">📅</span>
+            <h3>Un événement, deux réponses</h3>
+            <p>Date et heure d'abord, puis le titre, le lieu, le point GPS choisi sur la carte.
+              Chacun répond «&nbsp;Partant&nbsp;!&nbsp;» ou «&nbsp;Pas dispo&nbsp;». Vue liste avec
+              compte à rebours, vue calendrier mensuelle, modèles réutilisables.</p>
+            <span class="tag">RSVP · calendrier · templates</span>
+          </article>
+          <article class="card">
+            <span class="picto">🎒</span>
+            <h3>Le matériel, vraiment réparti</h3>
+            <p>Le matériel individuel se coche («&nbsp;j'ai le mien&nbsp;»), le matériel collectif
+              se compte («&nbsp;j'en ramène 2&nbsp;») jusqu'à couvrir le besoin. En mode
+              collaboratif, chacun ajoute ses propres lignes.</p>
+            <span class="tag">Individuel · collectif · collaboratif</span>
+          </article>
+          <article class="card">
+            <span class="picto">🔔</span>
+            <h3>Les rappels au bon moment</h3>
+            <p>Un e-mail à la création de l'événement, avec le lien direct pour répondre, et un
+              rappel la veille. Application installable sur le téléphone, pensée mobile d'abord.</p>
+            <span class="tag">Notifications e-mail · PWA</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="materiel">
+      <div class="section-inner">
+        <h2>Le nœud&nbsp;: qui ramène quoi</h2>
+        <p class="section-sub">C'est là que les groupes de discussion échouent — l'information se
+          perd entre deux messages. Ici, l'état du matériel est toujours lisible d'un coup d'œil.</p>
+        <ul class="kit-list">
+          <li><span>Gilet de sauvetage <em>— un par personne</em></span>
+            <span class="kit-state full">6 confirmés / 6&nbsp;✓</span></li>
+          <li><span>Bidon étanche <em>— 3 pour le groupe</em></span>
+            <span class="kit-state">2 par Robin, 1 par Léa&nbsp;·&nbsp;Complet&nbsp;✓</span></li>
+          <li><span>Trousse de secours <em>— 1 pour le groupe</em></span>
+            <span class="kit-state left">Reste 1 à trouver</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="avancement">
+      <div class="section-inner">
+        <h2>Où ça en est</h2>
+        <p class="section-sub">L'application est en ligne et utilisée. Le développement avance par
+          jalons&nbsp;: chaque étape est mise en production avant de passer à la suivante.</p>
+        <ol class="milestones">
+          <li class="done">
+            <h3>Socle et comptes <span class="state">En ligne</span></h3>
+            <p>Connexion par lien magique, profil, déploiement continu — la chaîne complète
+              validée dès le premier jalon.</p>
+          </li>
+          <li class="done">
+            <h3>Listes et invitations <span class="state">En ligne</span></h3>
+            <p>Création de listes, liens d'invitation, administration des membres,
+              confidentialité réglable.</p>
+          </li>
+          <li class="done">
+            <h3>Événements, RSVP et matériel <span class="state">En ligne</span></h3>
+            <p>Le cœur de l'application&nbsp;: création guidée, réponses, matériel individuel et
+              collectif, mode collaboratif, modèles.</p>
+          </li>
+          <li class="done">
+            <h3>Vues, carte et notifications <span class="state">En ligne</span></h3>
+            <p>Liste et calendrier, sélection du point GPS sur carte avec adresse retrouvée
+              automatiquement, e-mails de création et rappel de la veille.</p>
+          </li>
+          <li class="done">
+            <h3>Calendrier de disponibilités <span class="state">En ligne</span></h3>
+            <p>Ajout récent&nbsp;: chacun déclare ses créneaux, y compris récurrents, et choisit
+              finement avec qui les partager. L'organisateur propose au bon moment.</p>
+          </li>
+          <li class="next">
+            <h3>La suite <span class="state">En cours</span></h3>
+            <p>Notifications WhatsApp et SMS, carte des sorties autour de soi, listes publiques
+              et découverte par localisation.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="technique">
+      <div class="section-inner">
+        <h2>Sous le capot</h2>
+        <p class="section-sub">Un socle volontairement classique et hébergé en Europe, pour que
+          l'attention aille à l'usage plutôt qu'à l'infrastructure.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Application</h3>
+            <p>Next.js et React en TypeScript strict, Tailwind CSS, interface intégralement en
+              français, mobile d'abord, installable comme une application.</p>
+          </article>
+          <article class="card">
+            <h3>Données</h3>
+            <p>PostgreSQL sur Supabase, avec sécurité au niveau des lignes activée dès le premier
+              jour&nbsp;: personne ne voit une liste dont il n'est pas membre.</p>
+          </article>
+          <article class="card">
+            <h3>Services</h3>
+            <p>E-mails transactionnels par Resend, carte OpenStreetMap avec Leaflet, hébergement
+              et tâches planifiées sur Vercel, région de Paris.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-inner">
+        <h2>Envie d'essayer&nbsp;?</h2>
+        <p class="section-sub">L'application est ouverte&nbsp;: créez une liste, invitez vos
+          proches, proposez une première sortie. Les retours m'intéressent beaucoup.</p>
+        <a class="btn btn-primary" href="https://partants.app" rel="noopener">Aller sur partants.app</a>
+        <p class="contact-note">Une question, un bug, une idée&nbsp;:
+          <a href="mailto:robin.maquaire@gmail.com?subject=Partant%20%3F%20%E2%80%94%20Retour">écrivez-moi</a>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Robin Maquaire — site fait main, sans framework.</span>
+      <span>Les cinq facettes&nbsp;:
+        <a href="index.html">Data</a> ·
+        <a href="kayak.html">Kayak</a> ·
+        <a href="partant.html">Partant&#8201;?</a> ·
+        <a href="camina.html">Camina</a> ·
+        <a href="dida.html">DIDA</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/carousel.js"></script>
+</body>
+</html>

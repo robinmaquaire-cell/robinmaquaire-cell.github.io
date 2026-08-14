@@ -1,0 +1,248 @@
+/* Thème Partant ? — clair, mobile d'abord, orange signal.
+   Palette reprise des design tokens réels de l'application. */
+
+:root {
+  --bg: #f1f6f4;
+  --surface: #ffffff;
+  --surface-soft: #e6efec;
+  --border: #dce6e2;
+  --text: #10302c;
+  --muted: #3d5a55;
+  --accent: #ff6b35;
+  --on-accent: #ffffff;
+  --accent-soft: rgba(255, 107, 53, 0.12);
+  --header-bg: rgba(241, 246, 244, 0.9);
+  --font-display: "Segoe UI", system-ui, sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --sarcelle: #0f4c4c;
+  --riviere: #2c7da0;
+  --ok: #2e9e6b;
+  --refus: #c0533e;
+}
+
+/* Héros : sarcelle profond, l'orange ne sert que d'accent */
+.hero--partant {
+  background:
+    radial-gradient(900px 420px at 85% -15%, rgba(255, 107, 53, 0.22), transparent 60%),
+    linear-gradient(165deg, #0f4c4c 0%, #10302c 100%);
+  color: #eaf3f0;
+}
+
+.hero--partant h1 {
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+.hero--partant .lead {
+  color: #bcd6cf;
+}
+
+.hero--partant .kicker {
+  color: #ffb599;
+}
+
+.hero--partant .btn-ghost {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+
+.hero--partant .btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Coins généreux et bordures franches, comme dans l'app */
+.card {
+  border-radius: 1rem;
+  border-width: 1.5px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 28px rgba(16, 48, 44, 0.14);
+}
+
+/* Pastilles de technologies */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1.5px solid rgba(255, 255, 255, 0.28);
+  color: #cfe4de;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+/* Aperçu d'une carte d'événement, tel que l'app l'affiche */
+.event-preview {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 380px;
+  margin-top: 2rem;
+  box-shadow: 0 14px 40px -18px rgba(16, 48, 44, 0.55);
+}
+
+.event-preview .ep-band {
+  height: 6px;
+  background: var(--riviere);
+}
+
+.event-preview .ep-body {
+  padding: 1.1rem 1.2rem 1.3rem;
+}
+
+.event-preview .ep-date {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--riviere);
+}
+
+.event-preview .ep-count {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.event-preview .ep-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 0.2rem;
+}
+
+.event-preview .ep-meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.9rem;
+}
+
+.event-preview .ep-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.event-preview .ep-yes,
+.event-preview .ep-no {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 1.5px solid var(--border);
+  color: var(--muted);
+}
+
+.event-preview .ep-yes {
+  background: var(--ok);
+  border-color: var(--ok);
+  color: #ffffff;
+}
+
+/* Matériel : les deux régimes, individuel et collectif */
+.kit-list {
+  list-style: none;
+  margin-top: 1.4rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.kit-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 0.7rem;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+}
+
+.kit-list .kit-state {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.kit-list .kit-state.full {
+  color: var(--ok);
+}
+
+.kit-list .kit-state.left {
+  color: var(--accent);
+}
+
+/* Jalons de construction */
+.milestones {
+  list-style: none;
+  margin-top: 1.5rem;
+  border-left: 2px dashed var(--border);
+  padding-left: 1.6rem;
+}
+
+.milestones li {
+  position: relative;
+  padding-bottom: 1.4rem;
+}
+
+.milestones li::before {
+  content: "";
+  position: absolute;
+  left: -2.02rem;
+  top: 0.45rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--sarcelle);
+}
+
+.milestones li.done::before {
+  background: var(--sarcelle);
+}
+
+.milestones li.next::before {
+  border-color: var(--accent);
+}
+
+.milestones h3 {
+  font-size: 1.02rem;
+  margin-bottom: 0.2rem;
+}
+
+.milestones p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.milestones .state {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+  background: rgba(15, 76, 76, 0.1);
+  color: var(--sarcelle);
+}
+
+.milestones li.next .state {
+  background: var(--accent-soft);
+  color: #b83e10;
+}

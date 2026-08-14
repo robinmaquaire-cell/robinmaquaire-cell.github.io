@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Camina — Le carnet de voyage posé sur la carte</title>
+  <meta name="description" content="Camina transforme une randonnée ou n'importe quel voyage en carnet illustré et interactif posé sur une carte : souvenirs géolocalisés, photos, audio, thèmes et mise en page imprimable.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/camina.css">
+</head>
+<body data-facet="camina">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Robin Maquaire</a>
+      <nav class="facet-carousel" aria-label="Changer de facette">
+        <a class="fc-arrow" href="partant.html" aria-label="Facette précédente : Partant ?">&#8249;</a>
+        <a class="fc-item fc-side fc-item--partant" href="partant.html">
+          <img src="assets/carousel-partant.svg" alt="Aller à la facette Partant ?">
+          <span class="fc-label">Partant&#8201;?</span>
+        </a>
+        <span class="fc-item fc-center fc-item--camina" aria-current="page">
+          <img src="assets/carousel-camina.svg" alt="">
+          <span class="fc-label">Camina</span>
+        </span>
+        <a class="fc-item fc-side fc-item--dida" href="dida.html">
+          <img src="assets/carousel-dida.svg" alt="Aller à la facette DIDA">
+          <span class="fc-label">DIDA</span>
+        </a>
+        <a class="fc-arrow" href="dida.html" aria-label="Facette suivante : DIDA">&#8250;</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero hero--camina">
+      <div class="hero-inner">
+        <span class="kicker">Projet · Application de carnets de voyage</span>
+        <h1>Le voyage raconté sur la carte, pas rangé dans un dossier</h1>
+        <p class="lead">Camina transforme une randonnée — ou n'importe quel voyage — en un carnet
+          illustré et interactif posé sur une carte&nbsp;: chaque souvenir à sa place, avec ses
+          photos, sa voix, son récit. Puis on le partage, ou on l'imprime.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#principe">Découvrir le principe</a>
+          <a class="btn btn-ghost" href="#avancement">Où ça en est</a>
+        </div>
+        <div class="chips" aria-label="Traits marquants">
+          <span class="chip">Local d'abord</span>
+          <span class="chip">Fonctionne hors ligne</span>
+          <span class="chip">Import GPX</span>
+          <span class="chip">Installable</span>
+          <span class="chip">Français / anglais</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="principe">
+      <div class="section-inner">
+        <h2>Le principe</h2>
+        <p class="section-sub">On part d'une trace ou d'une zone du monde, on y sème des souvenirs,
+          et le carnet se compose tout seul autour d'eux.</p>
+
+        <dl class="facts">
+          <div class="fact">
+            <dt>Point de départ</dt>
+            <dd>Une trace GPX ou une zone dessinée</dd>
+          </div>
+          <div class="fact">
+            <dt>Unité de base</dt>
+            <dd>Le souvenir géolocalisé</dd>
+          </div>
+          <div class="fact">
+            <dt>Sortie</dt>
+            <dd>Carnet à consulter, partager ou imprimer</dd>
+          </div>
+        </dl>
+
+        <div class="cards" style="margin-top:2.2rem">
+          <article class="card">
+            <span class="picto">📍</span>
+            <h3>Semer les souvenirs</h3>
+            <p>On pose les souvenirs sur la carte, en série, là où ils ont eu lieu. Chacun reçoit
+              un récit, des dates, un pictogramme, une galerie de photos avec sa légende — et
+              même un enregistrement audio fait au micro sur place.</p>
+          </article>
+          <article class="card">
+            <span class="picto">✏️</span>
+            <h3>Annoter comme sur un tableau blanc</h3>
+            <p>Textes, post-it, formes, flèches, autocollants, dessin à main levée&nbsp;: l'écran
+              d'édition emprunte ses gestes aux outils de tableau blanc collaboratif — outils au
+              rail, poignées, barre contextuelle, annuler-rétablir.</p>
+          </article>
+          <article class="card">
+            <span class="picto">🎨</span>
+            <h3>Habiller à son goût</h3>
+            <p>Un thème définit les pictogrammes, les styles de texte, l'allure des épingles et
+              jusqu'au fond de carte&nbsp;: un fond vectoriel entièrement redessiné côté
+              navigateur, dont on règle la couleur de l'eau, des forêts, des routes.</p>
+          </article>
+          <article class="card">
+            <span class="picto">👀</span>
+            <h3>Se lire comme un invité</h3>
+            <p>Un mode consultation montre le carnet tel que le verra la personne à qui on
+              l'envoie&nbsp;: épingles numérotées regroupées en grappes, filtres par type de
+              souvenir et par dates.</p>
+          </article>
+          <article class="card">
+            <span class="picto">🖨️</span>
+            <h3>Devenir un vrai carnet</h3>
+            <p>Un éditeur de mise en page multi-pages assemble carte, souvenirs, textes et images
+              en une composition libre — et l'imprime exactement telle qu'elle s'affiche, ou
+              l'exporte en PDF.</p>
+          </article>
+          <article class="card">
+            <span class="picto">🤝</span>
+            <h3>Partager sans tout ouvrir</h3>
+            <p>Comptes, contacts, liens de partage révocables, synchronisation entre appareils et
+              catalogue de thèmes publics&nbsp;: le carnet circule quand on le décide, et
+              seulement là.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="local">
+      <div class="section-inner">
+        <h2>Local d'abord</h2>
+        <p class="section-sub">Le parti pris qui structure tout le reste&nbsp;: l'application
+          fonctionne entièrement sans réseau et sans compte. Les carnets vivent sur l'appareil,
+          les cartes déjà vues restent consultables au fond d'une vallée, et rien ne part sur un
+          serveur tant qu'on ne l'a pas demandé. Le compte n'ajoute que ce qui exige vraiment un
+          serveur&nbsp;: retrouver ses carnets ailleurs, et les montrer à quelqu'un.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Sur l'appareil</h3>
+            <p>Carnets, souvenirs, photos et thèmes sont stockés localement. Import et export en
+              un fichier, pour emporter ou archiver ses carnets sans dépendre de personne.</p>
+          </article>
+          <article class="card">
+            <h3>Hors ligne</h3>
+            <p>Installable comme une application, elle garde ses fonds de carte en réserve&nbsp;:
+              la marche continue même quand le réseau s'arrête.</p>
+          </article>
+          <article class="card">
+            <h3>Aucun service tiers imposé</h3>
+            <p>Les bibliothèques cartographiques sont embarquées, pas appelées à distance&nbsp;:
+              rien ne fuite vers un service extérieur pendant qu'on écrit son carnet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fitas">
+      <div class="section-inner">
+        <h2>Les fitas plutôt qu'un abonnement</h2>
+        <p class="section-sub">Camina n'a pas de formule premium. Elle a une monnaie interne, les
+          <strong>fitas</strong> — du nom des tas de pierres qui balisent les sentiers. On en
+          reçoit cinq en s'inscrivant, on en gagne en faisant vivre la communauté, on en dépense
+          à l'usage&nbsp;: chaque geste payant est tarifé au coût réel du service rendu, jamais
+          au forfait.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="picto">🎁</span>
+            <h3>On en gagne</h3>
+            <p>En acceptant un contact, en parrainant quelqu'un, en publiant son premier carnet,
+              ou quand un inconnu installe l'un des thèmes qu'on a publiés.</p>
+          </article>
+          <article class="card">
+            <span class="picto">🪙</span>
+            <h3>On en dépense</h3>
+            <p>Pour une image générée par intelligence artificielle, pour installer un thème du
+              catalogue — l'auteur en touche une au passage — ou pour un carnet en ligne
+              au-delà des trois premiers.</p>
+          </article>
+          <article class="card">
+            <span class="picto">📖</span>
+            <h3>Tout est ouvert</h3>
+            <p>L'application affiche le barème, la raison de chaque tarif, le solde et
+              l'historique complet des mouvements. Aucun débit n'a lieu sans que le service soit
+              rendu — sinon il est remboursé.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="avancement">
+      <div class="section-inner">
+        <h2>Où ça en est</h2>
+        <p class="section-sub">Projet actif, en développement continu depuis l'été 2026.
+          L'application est complète en usage local et son mode en ligne est en place&nbsp;;
+          la mise à disposition du public reste à faire.</p>
+        <ol class="milestones">
+          <li class="done">
+            <h3>Le carnet local, de bout en bout <span class="state">Fait</span></h3>
+            <p>Accueil sur carte du monde, création par GPX ou par zone, édition, souvenirs,
+              consultation, mise en page et impression, thèmes personnalisables.</p>
+          </li>
+          <li class="done">
+            <h3>Hors ligne et installable <span class="state">Fait</span></h3>
+            <p>Application installable sur téléphone comme sur ordinateur, fonds de carte gardés
+              en réserve, mises à jour proposées sans jamais interrompre une édition en cours.</p>
+          </li>
+          <li class="done">
+            <h3>Le mode en ligne <span class="state">Fait</span></h3>
+            <p>Comptes, synchronisation entre appareils, contacts et liens de partage, catalogue
+              de thèmes, génération d'images assistée, monnaie interne — servis par une API
+              hébergée en France.</p>
+          </li>
+          <li class="next">
+            <h3>Ce qui vient <span class="state">En cours</span></h3>
+            <p>La boutique de fitas, la vidéo dans les souvenirs, et l'ouverture au public.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="technique">
+      <div class="section-inner">
+        <h2>Sous le capot</h2>
+        <p class="section-sub">Une contrainte assumée dès le premier jour&nbsp;: aucune étape de
+          compilation, aucune dépendance appelée à distance. Le code qu'on écrit est celui qui
+          s'exécute.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Application</h3>
+            <p>Site statique en JavaScript standard, découpé en modules&nbsp;; cartographie avec
+              Leaflet, fonds vectoriels redessinés côté navigateur à partir de données
+              OpenStreetMap ouvertes.</p>
+          </article>
+          <article class="card">
+            <h3>Sur l'appareil</h3>
+            <p>Base de données locale du navigateur pour les carnets et les médias, service
+              worker pour le hors ligne, photos réduites à la volée avant stockage.</p>
+          </article>
+          <article class="card">
+            <h3>Côté serveur</h3>
+            <p>Une API Node et une base PostgreSQL hébergées en France, stockage des médias par
+              empreinte pour ne jamais envoyer deux fois la même photo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt contact" id="contact">
+      <div class="section-inner">
+        <h2>Un avis, une envie de tester&nbsp;?</h2>
+        <p class="section-sub">L'ouverture au public approche. Si l'idée vous parle — ou si vous
+          avez un carnet de voyage qui dort quelque part — j'aimerais en discuter.</p>
+        <a class="btn btn-primary" href="mailto:robin.maquaire@gmail.com?subject=Camina%20%E2%80%94%20Int%C3%A9ress%C3%A9%28e%29">Écrire à Robin</a>
+        <p class="contact-note">Camina s'est d'abord appelée Caminada&nbsp;: le nom a changé, le
+          chemin non.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Robin Maquaire — site fait main, sans framework.</span>
+      <span>Les cinq facettes&nbsp;:
+        <a href="index.html">Data</a> ·
+        <a href="kayak.html">Kayak</a> ·
+        <a href="partant.html">Partant&#8201;?</a> ·
+        <a href="camina.html">Camina</a> ·
+        <a href="dida.html">DIDA</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/carousel.js"></script>
+</body>
+</html>

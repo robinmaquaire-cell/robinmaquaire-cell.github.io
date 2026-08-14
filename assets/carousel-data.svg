@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Facette Data : tableau de bord">
+  <defs>
+    <linearGradient id="d-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101c36"/>
+      <stop offset="1" stop-color="#0a101f"/>
+    </linearGradient>
+    <linearGradient id="d-bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#0284c7"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#d-bg)"/>
+  <!-- grille -->
+  <g stroke="#1d2c4c" stroke-width="1">
+    <line x1="30" y1="70" x2="290" y2="70"/>
+    <line x1="30" y1="105" x2="290" y2="105"/>
+    <line x1="30" y1="140" x2="290" y2="140"/>
+    <line x1="30" y1="175" x2="290" y2="175"/>
+  </g>
+  <!-- tuiles KPI -->
+  <g>
+    <rect x="30" y="18" width="76" height="34" rx="6" fill="#16233f"/>
+    <rect x="38" y="26" width="34" height="6" rx="3" fill="#38bdf8"/>
+    <rect x="38" y="38" width="52" height="5" rx="2.5" fill="#2b3a5e"/>
+    <rect x="122" y="18" width="76" height="34" rx="6" fill="#16233f"/>
+    <rect x="130" y="26" width="34" height="6" rx="3" fill="#818cf8"/>
+    <rect x="130" y="38" width="52" height="5" rx="2.5" fill="#2b3a5e"/>
+    <rect x="214" y="18" width="76" height="34" rx="6" fill="#16233f"/>
+    <rect x="222" y="26" width="34" height="6" rx="3" fill="#34d399"/>
+    <rect x="222" y="38" width="52" height="5" rx="2.5" fill="#2b3a5e"/>
+  </g>
+  <!-- barres -->
+  <g fill="url(#d-bar)">
+    <rect x="44" y="118" width="22" height="57" rx="3"/>
+    <rect x="80" y="98" width="22" height="77" rx="3"/>
+    <rect x="116" y="130" width="22" height="45" rx="3"/>
+    <rect x="152" y="86" width="22" height="89" rx="3"/>
+    <rect x="188" y="108" width="22" height="67" rx="3"/>
+  </g>
+  <!-- courbe -->
+  <polyline points="44,120 92,100 140,112 188,84 236,92 284,68"
+            fill="none" stroke="#818cf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#c7d2fe">
+    <circle cx="236" cy="92" r="4"/>
+    <circle cx="284" cy="68" r="4"/>
+  </g>
+</svg>

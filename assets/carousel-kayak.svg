@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Facette Kayak : kayakiste sur le lac">
+  <defs>
+    <linearGradient id="k-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8ecf4"/>
+      <stop offset="1" stop-color="#8fd3e0"/>
+    </linearGradient>
+    <linearGradient id="k-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d8ba1"/>
+      <stop offset="1" stop-color="#0d5a70"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="120" fill="url(#k-sky)"/>
+  <circle cx="252" cy="44" r="22" fill="#ffd97d"/>
+  <!-- collines -->
+  <path d="M0 120 L60 62 L110 104 L170 48 L230 100 L280 70 L320 96 L320 120 Z" fill="#2b7a78" opacity="0.85"/>
+  <path d="M0 120 L48 88 L96 116 L150 80 L210 114 L268 90 L320 112 L320 120 Z" fill="#1f5f5e"/>
+  <!-- eau -->
+  <rect y="120" width="320" height="80" fill="url(#k-water)"/>
+  <g stroke="#7fd4e2" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+    <path d="M24 150 q14 -6 28 0 q14 6 28 0"/>
+    <path d="M200 162 q14 -6 28 0 q14 6 28 0"/>
+    <path d="M70 180 q14 -6 28 0 q14 6 28 0"/>
+  </g>
+  <!-- kayakiste -->
+  <g>
+    <path d="M96 138 Q160 124 224 138 Q160 152 96 138 Z" fill="#e76f51"/>
+    <circle cx="160" cy="106" r="9" fill="#13343b"/>
+    <path d="M151 116 q9 -6 18 0 l-2 14 l-14 0 Z" fill="#13343b"/>
+    <line x1="126" y1="124" x2="196" y2="102" stroke="#f4a261" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 128 l10 -6 l4 7 l-10 6 Z" fill="#f4a261"/>
+    <path d="M198 96 l10 -6 l4 7 l-10 6 Z" fill="#f4a261"/>
+  </g>
+</svg>

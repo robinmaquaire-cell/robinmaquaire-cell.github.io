@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DIDA — Données, Information, Décision, Action</title>
+  <meta name="description" content="DIDA, un cadre de pensée : tout organisme capture des Données, les transforme en Information, prend des Décisions et mène des Actions pour faire perdurer ses comportements.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔄</text></svg>">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/dida.css">
+</head>
+<body data-facet="dida">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Robin Maquaire</a>
+      <nav class="facet-carousel" aria-label="Changer de facette">
+        <a class="fc-arrow" href="camina.html" aria-label="Facette précédente : Camina">&#8249;</a>
+        <a class="fc-item fc-side fc-item--camina" href="camina.html">
+          <img src="assets/carousel-camina.svg" alt="Aller à la facette Camina">
+          <span class="fc-label">Camina</span>
+        </a>
+        <span class="fc-item fc-center fc-item--dida" aria-current="page">
+          <img src="assets/carousel-dida.svg" alt="">
+          <span class="fc-label">DIDA</span>
+        </span>
+        <a class="fc-item fc-side fc-item--data" href="index.html">
+          <img src="assets/carousel-data.svg" alt="Aller à la facette Data">
+          <span class="fc-label">Data</span>
+        </a>
+        <a class="fc-arrow" href="index.html" aria-label="Facette suivante : Data">&#8250;</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero hero--dida">
+      <div class="hero-inner">
+        <span class="kicker">Un cadre de pensée en construction</span>
+        <h1>DIDA — lire tous les organismes avec la même grille</h1>
+        <p class="lead">Une cellule, une personne, une équipe, une entreprise, une machine&nbsp;:
+          tout organisme capture des <strong>Données</strong>, les transforme en
+          <strong>Information</strong>, prend des <strong>Décisions</strong> et mène des
+          <strong>Actions</strong> — pour faire durer ses comportements le plus longtemps possible.</p>
+        <div class="dida-letters" aria-hidden="true">
+          <span>D</span><span>I</span><span class="filled">D</span><span>A</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#cycle">Découvrir le cycle</a>
+          <a class="btn btn-ghost" href="#contact">En discuter</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="organisme">
+      <div class="section-inner">
+        <h2>Qu'est-ce qu'un organisme&nbsp;?</h2>
+        <p class="section-sub">Trois ingrédients suffisent à le décrire — quel que soit son ordre
+          de grandeur, du vivant à la machine en passant par les organisations humaines.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="picto">🧱</span>
+            <h3>Des structures physiques</h3>
+            <p>Un corps, des locaux, des serveurs, des membranes&nbsp;: tout organisme
+              repose sur un support matériel qui le délimite et le porte.</p>
+          </article>
+          <article class="card">
+            <span class="picto">⚡</span>
+            <h3>Animées par de l'énergie</h3>
+            <p>Nourriture, électricité, trésorerie, motivation&nbsp;: sans flux d'énergie,
+              les structures restent inertes. L'énergie se traduit en comportements.</p>
+          </article>
+          <article class="card">
+            <span class="picto">🔁</span>
+            <h3>Des comportements qui persistent</h3>
+            <p>L'organisme cherche à faire perdurer ses comportements le plus longtemps
+              possible dans le temps. C'est ce qui l'oblige à interagir avec son environnement.</p>
+          </article>
+        </div>
+        <blockquote class="pullquote">Et c'est là que le cycle DIDA commence&nbsp;:
+          au contact permanent entre l'organisme et son environnement.</blockquote>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="cycle">
+      <div class="section-inner">
+        <h2>Le cycle DIDA</h2>
+        <p class="section-sub">Quatre étapes, en boucle, au contact de l'environnement&nbsp;:
+          chaque action modifie l'environnement, qui produit de nouvelles données.</p>
+
+        <figure class="dida-figure">
+          <svg viewBox="0 0 660 480" role="img" aria-label="Schéma du cycle DIDA : Données, Information, Décision, Action, en boucle dans l'environnement">
+            <defs>
+              <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+                <path class="diagram-arrowhead" d="M0 0 L10 5 L0 10 Z"/>
+              </marker>
+            </defs>
+
+            <!-- environnement -->
+            <circle class="diagram-env" cx="330" cy="240" r="218"/>
+            <text class="diagram-env-label" x="330" y="18" text-anchor="middle">E N V I R O N N E M E N T</text>
+
+            <!-- flèches du cycle (sens horaire) -->
+            <g>
+              <path class="diagram-arrow" d="M386 101 A150 150 0 0 1 469 184" marker-end="url(#arr)"/>
+              <path class="diagram-arrow" d="M469 296 A150 150 0 0 1 386 379" marker-end="url(#arr)"/>
+              <path class="diagram-arrow" d="M274 379 A150 150 0 0 1 191 296" marker-end="url(#arr)"/>
+              <path class="diagram-arrow" d="M191 184 A150 150 0 0 1 274 101" marker-end="url(#arr)"/>
+            </g>
+
+            <!-- nœuds -->
+            <g text-anchor="middle">
+              <rect class="diagram-node" x="255" y="66" width="150" height="48" rx="10"/>
+              <text class="diagram-label" x="330" y="96">Données</text>
+              <text class="diagram-sub" x="330" y="134">capturées dans l'environnement</text>
+
+              <rect class="diagram-node" x="405" y="216" width="150" height="48" rx="10"/>
+              <text class="diagram-label" x="480" y="246">Information</text>
+              <text class="diagram-sub" x="480" y="284">mises en forme, interprétées</text>
+
+              <rect class="diagram-node diagram-node--decision" x="255" y="366" width="150" height="48" rx="10"/>
+              <text class="diagram-label--inverse" x="330" y="396">Décision</text>
+              <text class="diagram-sub" x="330" y="434">propre aux organismes</text>
+
+              <rect class="diagram-node" x="105" y="216" width="150" height="48" rx="10"/>
+              <text class="diagram-label" x="180" y="246">Action</text>
+              <text class="diagram-sub" x="180" y="284">exécutée, modifie l'environnement</text>
+
+              <text class="diagram-label" x="330" y="232">L'organisme</text>
+              <text class="diagram-sub" x="330" y="254">cherche à faire durer ses comportements</text>
+            </g>
+          </svg>
+          <figcaption>Le cycle DIDA&nbsp;: Données → Information → Décision → Action, en boucle
+            au sein de l'environnement.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="sous-systemes">
+      <div class="section-inner">
+        <h2>Organisme ou sous-système&nbsp;?</h2>
+        <p class="section-sub">La différence tient à une seule étape&nbsp;: la décision.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>L'organisme décide</h3>
+            <p>Face aux mêmes données, il peut choisir des réponses différentes.
+              Il est imprévisible — et c'est cette latitude de choix qui lui permet
+              de s'adapter pour faire durer ses comportements.</p>
+            <span class="tag">Données → Information → Décision → Action</span>
+          </article>
+          <article class="card">
+            <h3>Le sous-système exécute</h3>
+            <p>Aux mêmes données, il répond toujours par la même action&nbsp;:
+              il est prévisible. La phase de décision disparaît, le flux se réduit
+              à trois étapes.</p>
+            <span class="tag">Données → Information → Action</span>
+          </article>
+        </div>
+
+        <figure class="dida-figure">
+          <svg viewBox="0 0 640 175" role="img" aria-label="Flux d'un sous-système : Données, Information, Action — la décision est absente">
+            <defs>
+              <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+                <path class="diagram-arrowhead" d="M0 0 L10 5 L0 10 Z"/>
+              </marker>
+            </defs>
+
+            <!-- décision fantôme -->
+            <g text-anchor="middle">
+              <rect class="diagram-node--ghost" x="365" y="10" width="120" height="36" rx="9"/>
+              <text class="diagram-label--ghost" x="425" y="33" text-decoration="line-through">Décision</text>
+              <line x1="425" y1="52" x2="425" y2="86" stroke-dasharray="4 5" class="diagram-env"/>
+            </g>
+
+            <!-- flux -->
+            <g text-anchor="middle">
+              <rect class="diagram-node" x="35" y="96" width="150" height="48" rx="10"/>
+              <text class="diagram-label" x="110" y="126">Données</text>
+              <rect class="diagram-node" x="245" y="96" width="150" height="48" rx="10"/>
+              <text class="diagram-label" x="320" y="126">Information</text>
+              <rect class="diagram-node" x="455" y="96" width="150" height="48" rx="10"/>
+              <text class="diagram-label" x="530" y="126">Action</text>
+            </g>
+            <g>
+              <line class="diagram-arrow" x1="187" y1="120" x2="238" y2="120" marker-end="url(#arr2)"/>
+              <line class="diagram-arrow" x1="397" y1="120" x2="448" y2="120" marker-end="url(#arr2)"/>
+            </g>
+          </svg>
+          <figcaption>Le flux d'un sous-système&nbsp;: prévisible, sans phase de décision.</figcaption>
+        </figure>
+
+        <h2 style="margin-top:3rem">Des poupées russes</h2>
+        <p class="section-sub" style="margin-bottom:0">Chaque organisme est composé d'une multitude
+          de sous-systèmes et de sous-organismes, eux-mêmes décomposables&nbsp;: la cellule dans
+          l'organe, l'organe dans l'individu, l'individu dans l'équipe, l'équipe dans l'entreprise.
+          À chaque niveau, la même grille de lecture s'applique — seul change l'ordre de grandeur.</p>
+      </div>
+    </section>
+
+    <section class="section section--alt contact" id="contact">
+      <div class="section-inner">
+        <h2>Une réflexion en cours</h2>
+        <p class="section-sub">Ce cadre est en construction. Une objection, un contre-exemple,
+          un écho dans vos propres travaux&nbsp;? J'aimerais le confronter à d'autres regards.</p>
+        <a class="btn btn-primary" href="mailto:robin.maquaire@gmail.com?subject=DIDA%20%E2%80%94%20R%C3%A9action">Réagir par e-mail</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Robin Maquaire — site fait main, sans framework.</span>
+      <span>Les cinq facettes&nbsp;:
+        <a href="index.html">Data</a> ·
+        <a href="kayak.html">Kayak</a> ·
+        <a href="partant.html">Partant&#8201;?</a> ·
+        <a href="camina.html">Camina</a> ·
+        <a href="dida.html">DIDA</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/carousel.js"></script>
+</body>
+</html>

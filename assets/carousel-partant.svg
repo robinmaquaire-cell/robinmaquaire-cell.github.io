@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Partant ? : carte d'événement avec date, participants et bouton Partant">
+  <rect width="320" height="200" fill="#0f4c4c"/>
+  <circle cx="268" cy="18" r="72" fill="#ff6b35" fill-opacity="0.18"/>
+  <circle cx="34" cy="188" r="56" fill="#2c7da0" fill-opacity="0.18"/>
+
+  <!-- carte d'événement -->
+  <rect x="34" y="30" width="204" height="140" rx="14" fill="#ffffff"/>
+  <path d="M34 44 a14 14 0 0 1 14 -14 h176 a14 14 0 0 1 14 14 v4 H34 z" fill="#2c7da0"/>
+
+  <!-- bloc date + compte à rebours -->
+  <rect x="50" y="62" width="46" height="46" rx="9" fill="#f1f6f4" stroke="#dce6e2" stroke-width="1.5"/>
+  <text x="73" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#2c7da0" text-anchor="middle">SAM.</text>
+  <text x="73" y="101" font-family="system-ui, sans-serif" font-size="19" font-weight="800" fill="#10302c" text-anchor="middle">14</text>
+  <text x="50" y="122" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#ff6b35">DANS 5 JOURS</text>
+
+  <g font-family="system-ui, sans-serif">
+    <text x="108" y="78" font-size="15" font-weight="800" fill="#10302c">Kayak au lac</text>
+    <text x="108" y="96" font-size="11" fill="#3d5a55">18 h 30 · Base nautique</text>
+    <text x="108" y="112" font-size="11" fill="#3d5a55">6 partants / 8</text>
+  </g>
+
+  <!-- boutons RSVP -->
+  <rect x="50" y="132" width="88" height="26" rx="8" fill="#2e9e6b"/>
+  <text x="94" y="149" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Partant !</text>
+  <rect x="146" y="132" width="76" height="26" rx="8" fill="#ffffff" stroke="#dce6e2" stroke-width="1.5"/>
+  <text x="184" y="149" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#3d5a55" text-anchor="middle">Pas dispo</text>
+
+  <!-- pastilles des participants -->
+  <g stroke="#0f4c4c" stroke-width="2.5">
+    <circle cx="252" cy="72" r="13" fill="#ff6b35"/>
+    <circle cx="252" cy="100" r="13" fill="#2c7da0"/>
+    <circle cx="252" cy="128" r="13" fill="#e8e1d3"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">
+    <text x="252" y="76" fill="#ffffff">R</text>
+    <text x="252" y="104" fill="#ffffff">L</text>
+    <text x="252" y="132" fill="#10302c">+4</text>
+  </g>
+
+  <text x="34" y="192" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#ffffff">Partant&#8201;?</text>
+</svg>
