@@ -8,22 +8,26 @@ aucun framework, aucune étape de compilation, aucune dépendance appelée à di
 | **Data** | `index.html` | Ingénieur et business analyst : reporting opérationnel sous SAP, Power BI et Qlik Sense |
 | **Kayak** | `kayak.html` | Moniteur kayak : packraft en rivière, kayak-polo, chasse à l'apéro |
 | **Partant ?** | `partant.html` | Projet : web app d'organisation de sorties entre amis ([partants.app](https://partants.app)) |
-| **Camina** | `camina.html` | Projet : carnets de voyage illustrés posés sur une carte |
+| **Camina** | `camina.html` | Projet : carnets de voyage illustrés posés sur une carte ([caminada.cleverapps.io](https://caminada.cleverapps.io)) |
 | **DIDA** | `dida.html` | Cadre de pensée : Données → Information → Décision → Action |
 
 ## Navigation
 
-Les facettes forment un cycle **Data → Kayak → Partant ? → Camina → DIDA → Data**,
-parcouru par le carrousel du bandeau, qui n'affiche jamais que la facette courante et
-ses deux voisines. Trois façons d'en changer :
+Le bandeau affiche **les cinq vignettes en permanence** : la facette courante en grand,
+cernée de l'accent de son thème, les quatre autres en retrait jusqu'au survol. Toute
+facette est donc à un clic de n'importe quelle autre. Deux raccourcis s'y ajoutent, de
+proche en proche le long du cycle **Data → Kayak → Partant ? → Camina → DIDA → Data** :
 
-- cliquer une vignette ou une flèche (de simples liens `<a>` : fonctionne sans JavaScript) ;
 - les flèches ← et → du clavier ;
 - un glissement horizontal du doigt, sur mobile.
 
+Les vignettes sont de simples liens `<a>` : la navigation fonctionne sans JavaScript.
 `js/carousel.js` ne porte que le clavier et le tactile. Pour ajouter une facette, il
-faut donc toucher à quatre endroits : la nouvelle page, le tableau `cycle` du script,
-les vignettes voisines dans le bandeau des deux facettes adjacentes, et le pied de page.
+faut toucher à quatre endroits : la nouvelle page, le tableau `cycle` du script, le
+bandeau des quatre autres pages, et le pied de page.
+
+L'alignement des vignettes se fait par le bas (`align-items: flex-end`), pour que les
+libellés restent sur une même ligne malgré la hauteur plus grande de la courante.
 
 ## Structure
 

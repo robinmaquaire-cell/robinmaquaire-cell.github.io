@@ -42,7 +42,7 @@ section[id] {
   scroll-margin-top: 140px;
 }
 
-/* ============ Header + carrousel de facettes ============ */
+/* ============ Header + barre de facettes ============ */
 
 .site-header {
   position: sticky;
@@ -77,29 +77,14 @@ section[id] {
   color: var(--accent);
 }
 
-.facet-carousel {
+/* Les cinq facettes sont toutes visibles : la courante est plus grande,
+   cernée de l'accent du thème ; les autres restent en retrait jusqu'au survol.
+   L'alignement en bas met tous les libellés sur la même ligne malgré la
+   différence de hauteur des vignettes. */
+.facet-bar {
   display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.fc-arrow {
-  display: grid;
-  place-items: center;
-  width: 2.1rem;
-  height: 2.1rem;
-  border-radius: 50%;
-  border: 1px solid var(--border);
-  color: var(--text);
-  font-size: 1.25rem;
-  line-height: 1;
-  transition: background 0.2s, transform 0.2s;
-}
-
-.fc-arrow:hover {
-  background: var(--accent-soft);
-  text-decoration: none;
-  transform: scale(1.08);
+  align-items: flex-end;
+  gap: 0.55rem;
 }
 
 .fc-item {
@@ -115,30 +100,29 @@ section[id] {
 }
 
 .fc-item img {
+  width: 66px;
+  height: 41px;
   border-radius: 0.5rem;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  opacity: 0.55;
+  filter: saturate(0.5);
   transition: opacity 0.2s, filter 0.2s, transform 0.2s;
 }
 
-.fc-center img {
-  width: 104px;
-  height: 64px;
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.fc-side img {
-  width: 66px;
-  height: 41px;
-  opacity: 0.55;
-  filter: saturate(0.5);
-}
-
-.fc-side:hover img {
+.fc-item:hover img {
   opacity: 1;
   filter: none;
   transform: translateY(-2px);
+}
+
+.fc-current img {
+  width: 104px;
+  height: 64px;
+  opacity: 1;
+  filter: none;
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .fc-label {
@@ -146,15 +130,20 @@ section[id] {
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--muted);
+  white-space: nowrap;
 }
 
-.fc-center .fc-label {
+.fc-item:hover .fc-label {
+  color: var(--text);
+}
+
+.fc-current .fc-label {
   color: var(--accent);
   font-weight: 700;
 }
 
-/* Transition entre facettes : les vignettes glissent vers leur
-   nouvelle position lors du changement de page. */
+/* Transition entre facettes : chaque vignette glisse vers sa nouvelle taille
+   et sa nouvelle position lors du changement de page. */
 @view-transition {
   navigation: auto;
 }
@@ -408,14 +397,23 @@ section[id] {
     font-size: 0.95rem;
   }
 
-  .fc-center img {
-    width: 86px;
-    height: 53px;
+  .facet-bar {
+    gap: 0.4rem;
   }
 
-  .fc-side img {
-    width: 52px;
-    height: 32px;
+  .fc-item img {
+    width: 46px;
+    height: 29px;
+  }
+
+  .fc-current img {
+    width: 76px;
+    height: 47px;
+  }
+
+  .fc-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.04em;
   }
 
   .hero {

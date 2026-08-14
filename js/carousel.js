@@ -1,7 +1,8 @@
-/* Carrousel de facettes : navigation circulaire
-   Data -> Kayak -> Partant ? -> Camina -> DIDA -> Data.
-   Les clics passent par de simples liens <a> dans le header (fonctionnent
-   sans JS) ; ce script ajoute le clavier et le glissement tactile. */
+/* Barre de facettes : les cinq vignettes sont toutes affichées dans le header
+   et s'atteignent d'un clic, par de simples liens <a> (donc sans JS).
+   Ce script n'ajoute que les raccourcis de proche en proche — flèches du
+   clavier et glissement tactile — le long du cycle
+   Data -> Kayak -> Partant ? -> Camina -> DIDA -> Data. */
 (function () {
   "use strict";
 
