@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p08-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : tracer la frontière -->
+  <rect x="60" y="60" width="880" height="560" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="120" font-size="19" fill="#111">Parler d'un organisme suppose de distinguer son intérieur</text>
+  <text x="92" y="147" font-size="19" fill="#111">de son monde extérieur.</text>
+  <use href="#p08-cell" transform="translate(500,390) scale(1.2)"/>
+  <path d="M630.2 280.7 A 170 170 0 1 1 529.5 222.6" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="10 10"/>
+  <circle cx="529.5" cy="222.6" r="4" fill="#111"/>
+
+  <!-- Case 2 : dedans, dehors -->
+  <rect x="62" y="686" width="876" height="426" fill="#d8d8d8" stroke="none"/>
+  <rect x="60" y="684" width="880" height="430" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="500" cy="910" r="130" fill="#fff" stroke="#111" stroke-width="2.5"/>
+  <use href="#p08-cell" transform="translate(500,910)"/>
+  <circle cx="150" cy="800" r="4" fill="#111"/>
+  <circle cx="250" cy="1050" r="4" fill="#111"/>
+  <circle cx="870" cy="810" r="4" fill="#111"/>
+  <circle cx="860" cy="1040" r="4" fill="#111"/>
+  <text x="500" y="1005" text-anchor="middle" font-size="17" fill="#111">intérieur</text>
+  <text x="805" y="750" text-anchor="middle" font-size="17" fill="#111">monde extérieur</text>
+
+  <rect x="110" y="700" width="320" height="60" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="270" y="738" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">ICI, MOI. LÀ, LE MONDE.</text>
+  <circle cx="444" cy="764" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="460" cy="778" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="1180" width="760" height="130" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1232" font-size="19" fill="#111"><tspan font-weight="700">Frontière</tspan> — Limite naturelle, choisie arbitrairement, qui distingue</text>
+  <text x="152" y="1259" font-size="19" fill="#111">l'intérieur de l'organisme de son monde extérieur.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 8 —</text>
+</svg>

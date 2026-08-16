@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p04-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+    <g id="p04-cellg">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#d8d8d8" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#d8d8d8" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#d8d8d8" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#d8d8d8" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#d8d8d8" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#d8d8d8" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#d8d8d8" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#d8d8d8"/>
+      <circle cx="34" cy="0" r="7" fill="#d8d8d8"/>
+      <circle cx="17" cy="29.4" r="7" fill="#d8d8d8"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#d8d8d8"/>
+      <circle cx="-34" cy="0" r="7" fill="#d8d8d8"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#d8d8d8"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#d8d8d8"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : deux atomes, des forces inégales -->
+  <rect x="60" y="60" width="880" height="440" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="120" font-size="19" fill="#111">Entre les atomes, les forces se déséquilibrent.</text>
+  <circle cx="360" cy="300" r="15" fill="#111"/>
+  <circle cx="660" cy="300" r="15" fill="#111"/>
+  <line x1="385" y1="262" x2="565" y2="262" stroke="#111" stroke-width="3"/>
+  <path d="M582 262 L558 251 L558 273 Z" fill="#111"/>
+  <line x1="635" y1="338" x2="575" y2="338" stroke="#111" stroke-width="3"/>
+  <path d="M558 338 L582 327 L582 349 Z" fill="#111"/>
+
+  <!-- Case 2 : le mouvement -->
+  <rect x="60" y="524" width="880" height="440" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="584" font-size="19" fill="#111">Le déséquilibre induit le mouvement.</text>
+  <use href="#p04-cellg" transform="translate(330,760) scale(1.4)"/>
+  <use href="#p04-cell" transform="translate(640,760) scale(1.4)"/>
+  <path d="M340 672 Q 490 616 616 664" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M632 670 L607 668 L616 648 Z" fill="#111"/>
+
+  <rect x="250" y="860" width="500" height="60" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="500" y="898" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">QUELQUE CHOSE ME MET EN MOUVEMENT.</text>
+  <circle cx="765" cy="852" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="781" cy="834" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="793" cy="820" r="2" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="1030" width="760" height="130" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1082" font-size="19" fill="#111"><tspan font-weight="700">Énergie</tspan> — Déséquilibre des forces d'interaction entre les atomes.</text>
+  <text x="152" y="1109" font-size="19" fill="#111">Induit le mouvement.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 4 —</text>
+</svg>

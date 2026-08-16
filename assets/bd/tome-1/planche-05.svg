@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p05-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Cases 1 à 3 : la même oscillation, trois fois -->
+  <rect x="60" y="60" width="278" height="380" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="84" y="112" font-size="19" fill="#111">Un mouvement…</text>
+  <use href="#p05-cell" transform="translate(174,280) scale(1.1)"/>
+  <path d="M140 200 Q 200 162 254 192" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M260 195 L237 193 L246 175 Z" fill="#111"/>
+
+  <rect x="361" y="60" width="278" height="380" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="385" y="112" font-size="19" fill="#111">…puis le même…</text>
+  <use href="#p05-cell" transform="translate(526,280) scale(1.1)"/>
+  <path d="M560 200 Q 500 162 446 192" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M440 195 L463 193 L454 175 Z" fill="#111"/>
+
+  <rect x="662" y="60" width="278" height="380" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="686" y="112" font-size="19" fill="#111">…encore le même.</text>
+  <use href="#p05-cell" transform="translate(776,280) scale(1.1)"/>
+  <path d="M742 200 Q 802 162 856 192" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M862 195 L839 193 L848 175 Z" fill="#111"/>
+
+  <!-- Case 4 : le motif du mouvement -->
+  <rect x="60" y="464" width="880" height="430" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="524" font-size="19" fill="#111">Le motif de la mise en mouvement : une dynamique qui se répète.</text>
+  <path d="M140 660 Q 205 606 264 654" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M270 660 L247 656 L258 639 Z" fill="#111"/>
+  <path d="M270 660 Q 335 606 394 654" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M400 660 L377 656 L388 639 Z" fill="#111"/>
+  <path d="M400 660 Q 465 606 524 654" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M530 660 L507 656 L518 639 Z" fill="#111"/>
+  <path d="M530 660 Q 595 606 654 654" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M660 660 L637 656 L648 639 Z" fill="#111"/>
+  <use href="#p05-cell" transform="translate(790,660) scale(1.1)"/>
+
+  <rect x="140" y="740" width="400" height="92" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="340" y="777" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">MES MOUVEMENTS SE RÉPÈTENT,</text>
+  <text x="340" y="806" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">COMME MON MOTIF.</text>
+  <circle cx="562" cy="758" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="592" cy="738" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="618" cy="722" r="2" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="980" width="760" height="130" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1032" font-size="19" fill="#111"><tspan font-weight="700">Comportement</tspan> — Motif de la mise en mouvement des structures</text>
+  <text x="152" y="1059" font-size="19" fill="#111">physiques par l'énergie.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 5 —</text>
+</svg>

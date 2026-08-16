@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p03-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+    <g id="p03-cell-dash">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="4 5"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2" stroke-dasharray="4 5"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2" stroke-dasharray="4 5"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2" stroke-dasharray="4 5"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2" stroke-dasharray="4 5"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2" stroke-dasharray="4 5"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2" stroke-dasharray="4 5"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : les forces d'attraction -->
+  <rect x="60" y="60" width="428" height="450" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="120" font-size="19" fill="#111">Des forces d'attraction les relient.</text>
+  <use href="#p03-cell-dash" transform="translate(274,305) scale(1.4)"/>
+
+  <!-- Case 2 : le motif -->
+  <rect x="512" y="60" width="428" height="450" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="544" y="120" font-size="19" fill="#111">Ils forment un motif.</text>
+  <use href="#p03-cell" transform="translate(726,305) scale(1.4)"/>
+
+  <!-- Case 3 : le motif qui se répète -->
+  <rect x="60" y="534" width="880" height="430" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="594" font-size="19" fill="#111">Un motif qui se répète.</text>
+  <use href="#p03-cell" transform="translate(270,780) scale(1.3)"/>
+  <use href="#p03-cell" transform="translate(500,780) scale(1.3)"/>
+  <use href="#p03-cell" transform="translate(730,780) scale(1.3)"/>
+  <rect x="600" y="588" width="290" height="60" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="745" y="626" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">JE TIENS ENSEMBLE.</text>
+  <circle cx="585" cy="668" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="565" cy="692" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="548" cy="712" r="2" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="1030" width="760" height="150" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1082" font-size="19" fill="#111"><tspan font-weight="700">Structure physique</tspan> — Éléments unitaires de matière (atome)</text>
+  <text x="152" y="1109" font-size="19" fill="#111">reliés entre eux par des forces d'attraction formant un motif</text>
+  <text x="152" y="1136" font-size="19" fill="#111">qui se répète.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 3 —</text>
+</svg>

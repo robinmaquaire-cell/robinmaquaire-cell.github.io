@@ -11,6 +11,13 @@ aucun framework, aucune étape de compilation, aucune dépendance appelée à di
 | **Camina** | `camina.html` | Projet : carnets de voyage illustrés posés sur une carte ([caminada.cleverapps.io](https://caminada.cleverapps.io)) |
 | **DIDA** | `dida.html` | Cadre de pensée : Données → Information → Décision → Action |
 
+Une page secondaire complète la facette DIDA : `dida-bd.html`, la bande dessinée
+(tome 1 — *Les bases*, 15 planches). Elle porte le même bandeau et le même thème que
+`dida.html`, dont elle est atteinte par le héros et par la section « La même chose, en
+dessins ». Les planches sont des SVG autonomes copiés depuis le corpus
+(`Projects/DIDA/bd/tome-1/planches/`) vers `assets/bd/tome-1/` : elles restent la
+source, la page ne fait que les afficher.
+
 ## Navigation
 
 Le bandeau affiche **les cinq vignettes en permanence** : la facette courante en grand,
@@ -33,10 +40,12 @@ libellés restent sur une même ligne malgré la hauteur plus grande de la coura
 
 ```
 index.html, kayak.html, partant.html, camina.html, dida.html
+dida-bd.html        page secondaire de la facette DIDA : la bande dessinée
 css/common.css      structure et composants partagés
 css/<facette>.css   un thème par facette : couleurs, polices, héros
 js/carousel.js      clavier et glissement tactile
 assets/             vignettes du carrousel (SVG)
+assets/bd/tome-1/   les 15 planches de la bande dessinée (SVG)
 ```
 
 Chaque thème ne définit que des variables CSS (`--bg`, `--accent`, `--text`…) que

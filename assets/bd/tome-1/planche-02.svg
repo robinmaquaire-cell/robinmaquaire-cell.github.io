@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : la matière, des points épars -->
+  <rect x="60" y="60" width="880" height="560" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="120" font-size="19" fill="#111">Au début, il n'y a que de la matière.</text>
+  <circle cx="180" cy="240" r="4" fill="#111"/>
+  <circle cx="310" cy="190" r="4" fill="#111"/>
+  <circle cx="455" cy="265" r="4" fill="#111"/>
+  <circle cx="605" cy="180" r="4" fill="#111"/>
+  <circle cx="760" cy="230" r="4" fill="#111"/>
+  <circle cx="870" cy="330" r="4" fill="#111"/>
+  <circle cx="130" cy="400" r="4" fill="#111"/>
+  <circle cx="265" cy="345" r="4" fill="#111"/>
+  <circle cx="395" cy="420" r="4" fill="#111"/>
+  <circle cx="520" cy="360" r="4" fill="#111"/>
+  <circle cx="660" cy="430" r="4" fill="#111"/>
+  <circle cx="800" cy="470" r="4" fill="#111"/>
+  <circle cx="215" cy="520" r="4" fill="#111"/>
+  <circle cx="345" cy="555" r="4" fill="#111"/>
+  <circle cx="490" cy="510" r="4" fill="#111"/>
+  <circle cx="590" cy="560" r="4" fill="#111"/>
+  <circle cx="720" cy="545" r="4" fill="#111"/>
+  <circle cx="880" cy="560" r="4" fill="#111"/>
+  <circle cx="700" cy="120" r="4" fill="#111"/>
+  <circle cx="480" cy="150" r="4" fill="#111"/>
+
+  <!-- Case 2 : zoom, des atomes -->
+  <rect x="60" y="680" width="880" height="600" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="740" font-size="19" fill="#111">Des éléments unitaires : des atomes.</text>
+  <circle cx="230" cy="920" r="9" fill="#111"/>
+  <circle cx="390" cy="850" r="9" fill="#111"/>
+  <circle cx="330" cy="1090" r="9" fill="#111"/>
+  <circle cx="530" cy="1000" r="9" fill="#111"/>
+  <circle cx="680" cy="900" r="9" fill="#111"/>
+  <circle cx="790" cy="1060" r="9" fill="#111"/>
+  <circle cx="160" cy="1180" r="9" fill="#111"/>
+
+  <!-- Bulle : la voix, sans personne encore -->
+  <rect x="530" y="1130" width="360" height="64" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="710" y="1170" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">QU'EST-CE QUE JE SUIS ?</text>
+  <circle cx="516" cy="1112" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="498" cy="1092" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="484" cy="1076" r="2" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 2 —</text>
+</svg>

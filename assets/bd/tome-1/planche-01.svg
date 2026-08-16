@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p01-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Titre -->
+  <text x="500" y="330" text-anchor="middle" font-size="150" font-weight="800" letter-spacing="26" fill="#111">DIDA</text>
+  <text x="500" y="412" text-anchor="middle" font-size="25" letter-spacing="1" fill="#111">Donnée → Information → Décision → Action</text>
+
+  <!-- Visuel central : l'organisme, une donnée entre, une action sort -->
+  <circle cx="500" cy="760" r="120" fill="none" stroke="#111" stroke-width="3"/>
+  <use href="#p01-cell" transform="translate(500,760) scale(2.1)"/>
+  <!-- donnée : dehors -> dedans -->
+  <line x1="290" y1="760" x2="352" y2="760" stroke="#111" stroke-width="3"/>
+  <path d="M368 760 L346 750 L346 770 Z" fill="#111"/>
+  <circle cx="380" cy="760" r="8" fill="#111"/>
+  <!-- action : dedans -> dehors -->
+  <circle cx="620" cy="760" r="8" fill="#111"/>
+  <line x1="648" y1="760" x2="694" y2="760" stroke="#111" stroke-width="3"/>
+  <path d="M710 760 L688 750 L688 770 Z" fill="#111"/>
+
+  <!-- Tome -->
+  <text x="500" y="1092" text-anchor="middle" font-size="40" font-weight="700" fill="#111">Tome 1 — Les bases</text>
+  <text x="500" y="1152" text-anchor="middle" font-size="18" fill="#111">D'après les définitions de Robin — socle v2, 2026-08-14</text>
+  <text x="500" y="1186" text-anchor="middle" font-size="15" fill="#111">Brouillon — à valider avant diffusion</text>
+</svg>

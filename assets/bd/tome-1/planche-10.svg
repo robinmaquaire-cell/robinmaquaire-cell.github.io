@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p10-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+    <g id="p10-cellB">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="3.5"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="3.5"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="3.5"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="3.5"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="3.5"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="3.5"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="3.5"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : le motif souligné -->
+  <rect x="60" y="60" width="428" height="480" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="120" font-size="19" fill="#111">La donnée est une modification ;</text>
+  <text x="92" y="147" font-size="19" fill="#111">l'information est un motif.</text>
+  <circle cx="274" cy="300" r="100" fill="none" stroke="#111" stroke-width="2.5"/>
+  <use href="#p10-cellB" transform="translate(274,300) scale(1.15)"/>
+  <line x1="194" y1="425" x2="354" y2="425" stroke="#111" stroke-width="1.5"/>
+  <line x1="194" y1="425" x2="194" y2="417" stroke="#111" stroke-width="1.5"/>
+  <line x1="354" y1="425" x2="354" y2="417" stroke="#111" stroke-width="1.5"/>
+  <text x="274" y="458" text-anchor="middle" font-size="16" fill="#111">le motif de mes structures</text>
+
+  <!-- Case 2 : les deux motifs -->
+  <rect x="512" y="60" width="428" height="480" fill="none" stroke="#111" stroke-width="2"/>
+  <use href="#p10-cell" transform="translate(726,175)"/>
+  <text x="726" y="248" text-anchor="middle" font-size="16" fill="#111">information : le motif de la forme</text>
+  <line x1="526" y1="278" x2="926" y2="278" stroke="#111" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <path d="M620 448 Q 670 411 714 439" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M720 443 L698 439 L708 422 Z" fill="#111"/>
+  <path d="M720 443 Q 770 406 814 434" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M820 438 L798 434 L808 417 Z" fill="#111"/>
+  <text x="726" y="498" text-anchor="middle" font-size="16" fill="#111">comportement : le motif du mouvement</text>
+
+  <rect x="570" y="316" width="300" height="56" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="720" y="352" text-anchor="middle" font-size="20" font-weight="600" letter-spacing="0.5" fill="#111">JE SUIS FAIT DE MOTIFS.</text>
+  <circle cx="556" cy="382" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="540" cy="398" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="600" width="760" height="96" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="655" font-size="19" fill="#111"><tspan font-weight="700">Information</tspan> — Motif des structures physiques.</text>
+
+  <!-- Case 3 : silence -->
+  <rect x="60" y="760" width="880" height="500" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="500" cy="1010" r="55" fill="none" stroke="#111" stroke-width="2"/>
+  <use href="#p10-cell" transform="translate(500,1010) scale(0.62)"/>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 10 —</text>
+</svg>

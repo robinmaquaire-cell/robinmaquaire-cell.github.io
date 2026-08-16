@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <text x="500" y="120" text-anchor="middle" font-size="30" font-weight="700" fill="#111">Le socle — définitions exactes</text>
+  <text x="500" y="152" text-anchor="middle" font-size="16" fill="#111">version 2 — 2026-08-14</text>
+
+  <!-- Briques physiques -->
+  <text x="90" y="205" font-size="12.5" font-weight="600" letter-spacing="2" fill="#111">BRIQUES PHYSIQUES</text>
+  <text x="90" y="232" font-size="14.5" fill="#111"><tspan font-weight="700">Structure physique</tspan> — Éléments unitaires de matière</text>
+  <text x="90" y="252" font-size="14.5" fill="#111">(atome) reliés entre eux par des forces d'attraction</text>
+  <text x="90" y="272" font-size="14.5" fill="#111">formant un motif qui se répète.</text>
+  <text x="90" y="304" font-size="14.5" fill="#111"><tspan font-weight="700">Énergie</tspan> — Déséquilibre des forces d'interaction</text>
+  <text x="90" y="324" font-size="14.5" fill="#111">entre les atomes. Induit le mouvement.</text>
+  <text x="90" y="356" font-size="14.5" fill="#111"><tspan font-weight="700">Comportement</tspan> — Motif de la mise en mouvement</text>
+  <text x="90" y="376" font-size="14.5" fill="#111">des structures physiques par l'énergie.</text>
+  <text x="90" y="408" font-size="14.5" fill="#111"><tspan font-weight="700">Système</tspan> — Ensemble de structures physiques</text>
+  <text x="90" y="428" font-size="14.5" fill="#111">mises en mouvement par de l'énergie.</text>
+  <text x="90" y="460" font-size="14.5" fill="#111"><tspan font-weight="700">Organisme</tspan> — Ensemble de structures physiques</text>
+  <text x="90" y="480" font-size="14.5" fill="#111">mises en mouvement par de l'énergie, étant</text>
+  <text x="90" y="500" font-size="14.5" fill="#111">articulées afin de faire perdurer ses structures</text>
+  <text x="90" y="520" font-size="14.5" fill="#111">physiques et ses comportements le plus longtemps</text>
+  <text x="90" y="540" font-size="14.5" fill="#111">possible.</text>
+
+  <!-- Briques informationnelles -->
+  <text x="530" y="205" font-size="12.5" font-weight="600" letter-spacing="2" fill="#111">BRIQUES INFORMATIONNELLES</text>
+  <text x="530" y="232" font-size="14.5" fill="#111"><tspan font-weight="700">Information</tspan> — Motif des structures physiques.</text>
+  <text x="530" y="264" font-size="14.5" fill="#111"><tspan font-weight="700">Frontière</tspan> — Limite naturelle, choisie arbitrairement,</text>
+  <text x="530" y="284" font-size="14.5" fill="#111">qui distingue l'intérieur de l'organisme de son</text>
+  <text x="530" y="304" font-size="14.5" fill="#111">monde extérieur.</text>
+  <text x="530" y="336" font-size="14.5" fill="#111"><tspan font-weight="700">Donnée</tspan> — Modification unitaire de la position</text>
+  <text x="530" y="356" font-size="14.5" fill="#111">d'un atome dans sa structure, au niveau de la</text>
+  <text x="530" y="376" font-size="14.5" fill="#111">frontière, en provenance du monde extérieur.</text>
+  <text x="530" y="408" font-size="14.5" fill="#111"><tspan font-weight="700">Action</tspan> — Modification unitaire de la position</text>
+  <text x="530" y="428" font-size="14.5" fill="#111">d'un atome dans sa structure, au niveau de la</text>
+  <text x="530" y="448" font-size="14.5" fill="#111">frontière, en provenance de l'intérieur</text>
+  <text x="530" y="468" font-size="14.5" fill="#111">de l'organisme.</text>
+  <text x="530" y="500" font-size="14.5" fill="#111"><tspan font-weight="700">Décision</tspan> — Mécanisme qui apparaît lorsque</text>
+  <text x="530" y="520" font-size="14.5" fill="#111">l'organisme peut structurellement utiliser plusieurs</text>
+  <text x="530" y="540" font-size="14.5" fill="#111">systèmes différents à partir d'une nouvelle</text>
+  <text x="530" y="560" font-size="14.5" fill="#111">information.</text>
+
+  <!-- Flux -->
+  <text x="90" y="625" font-size="12.5" font-weight="600" letter-spacing="2" fill="#111">FLUX</text>
+  <text x="90" y="652" font-size="14.5" fill="#111"><tspan font-weight="700">DIA</tspan> — Flux caractéristique</text>
+  <text x="90" y="672" font-size="14.5" fill="#111">d'un système. Représente :</text>
+  <text x="90" y="692" font-size="14.5" fill="#111">Donnée → Information → Action.</text>
+  <text x="400" y="652" font-size="14.5" fill="#111"><tspan font-weight="700">DIDA</tspan> — Flux caractéristique</text>
+  <text x="400" y="672" font-size="14.5" fill="#111">d'un organisme. Représente :</text>
+  <text x="400" y="692" font-size="14.5" fill="#111">Donnée → Information →</text>
+  <text x="400" y="712" font-size="14.5" fill="#111">Décision → Action.</text>
+  <text x="700" y="652" font-size="14.5" fill="#111"><tspan font-weight="700">Boucle</tspan> — Dans les deux flux,</text>
+  <text x="700" y="672" font-size="14.5" fill="#111">l'action modifie le monde</text>
+  <text x="700" y="692" font-size="14.5" fill="#111">extérieur, d'où proviennent</text>
+  <text x="700" y="712" font-size="14.5" fill="#111">de nouvelles données ;</text>
+  <text x="700" y="732" font-size="14.5" fill="#111">le flux recommence.</text>
+
+  <!-- Encart Lecture -->
+  <rect x="84" y="790" width="832" height="310" fill="#fff" stroke="#111" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="112" y="830" font-size="16" font-weight="700" fill="#111">Lecture — ce que la bande dessinée ajoute au socle</text>
+  <text x="112" y="866" font-size="14.5" fill="#111">• La voix intérieure (« je ») est un artifice de récit : le socle ne prête ni parole</text>
+  <text x="130" y="886" font-size="14.5" fill="#111">ni point de vue aux organismes. Les bulles paraphrasent ; seuls les cartouches</text>
+  <text x="130" y="906" font-size="14.5" fill="#111">de définition font foi.</text>
+  <text x="112" y="934" font-size="14.5" fill="#111">• Les dessins — points, traits, cercles — sont des figurations libres : le socle</text>
+  <text x="130" y="954" font-size="14.5" fill="#111">ne décrit aucune forme visuelle.</text>
+  <text x="112" y="982" font-size="14.5" fill="#111">• L'amorce finale (« dans un plus grand que moi ») annonce l'emboîtement :</text>
+  <text x="130" y="1002" font-size="14.5" fill="#111">principe validé (couche 2), tome à venir.</text>
+  <text x="112" y="1030" font-size="14.5" fill="#111">• La mise en scène des planches 11 à 13 (un point qui entre, un mécanisme,</text>
+  <text x="130" y="1050" font-size="14.5" fill="#111">une flèche qui sort) est une illustration minimale, pas un cas réel.</text>
+
+  <!-- Test de lecture -->
+  <text x="500" y="1170" text-anchor="middle" font-size="16" fill="#111">Deux questions, pour finir : sauriez-vous redire DIDA dans vos propres mots ?</text>
+  <text x="500" y="1198" text-anchor="middle" font-size="16" fill="#111">Y a-t-il une situation de votre vie que ce tome vous fait regarder autrement ?</text>
+
+  <text x="500" y="1290" text-anchor="middle" font-size="13" fill="#111">Bande dessinée d'après le socle DIDA v2 (2026-08-14) — brouillon, à valider.</text>
+</svg>

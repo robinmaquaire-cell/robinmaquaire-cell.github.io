@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p11-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : un seul système, rien à décider -->
+  <rect x="60" y="60" width="880" height="430" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="108" font-size="19" fill="#111">Tant qu'une nouvelle information ne peut mettre en jeu</text>
+  <text x="92" y="135" font-size="19" fill="#111">qu'un seul système, il n'y a rien à décider.</text>
+  <circle cx="500" cy="300" r="160" fill="none" stroke="#111" stroke-width="2.5"/>
+  <line x1="250" y1="300" x2="315" y2="300" stroke="#111" stroke-width="2.5"/>
+  <path d="M328 300 L308 291 L308 309 Z" fill="#111"/>
+  <circle cx="340" cy="300" r="8" fill="#111"/>
+  <line x1="352" y1="300" x2="462" y2="300" stroke="#111" stroke-width="2"/>
+  <use href="#p11-cell" transform="translate(500,300) scale(0.6)"/>
+  <line x1="538" y1="300" x2="648" y2="300" stroke="#111" stroke-width="2"/>
+  <circle cx="660" cy="300" r="8" fill="#111"/>
+  <line x1="672" y1="300" x2="725" y2="300" stroke="#111" stroke-width="2.5"/>
+  <path d="M738 300 L718 291 L718 309 Z" fill="#111"/>
+
+  <!-- Case 2 : plusieurs systèmes, un mécanisme apparaît -->
+  <rect x="60" y="514" width="880" height="470" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="562" font-size="19" fill="#111">Plusieurs systèmes différents sont structurellement</text>
+  <text x="92" y="589" font-size="19" fill="#111">disponibles : un mécanisme apparaît.</text>
+  <circle cx="500" cy="760" r="170" fill="none" stroke="#111" stroke-width="2.5"/>
+  <line x1="240" y1="760" x2="305" y2="760" stroke="#111" stroke-width="2.5"/>
+  <path d="M318 760 L298 751 L298 769 Z" fill="#111"/>
+  <circle cx="330" cy="760" r="8" fill="#111"/>
+  <line x1="342" y1="760" x2="415" y2="760" stroke="#111" stroke-width="2"/>
+  <circle cx="420" cy="760" r="5" fill="#111"/>
+  <line x1="425" y1="760" x2="518" y2="760" stroke="#111" stroke-width="2"/>
+  <line x1="424" y1="753" x2="516" y2="648" stroke="#111" stroke-width="2" stroke-dasharray="5 6"/>
+  <line x1="424" y1="767" x2="516" y2="872" stroke="#111" stroke-width="2" stroke-dasharray="5 6"/>
+  <use href="#p11-cell" transform="translate(540,640) scale(0.55)"/>
+  <use href="#p11-cell" transform="translate(540,760) scale(0.55)"/>
+  <use href="#p11-cell" transform="translate(540,880) scale(0.55)"/>
+  <line x1="566" y1="760" x2="650" y2="760" stroke="#111" stroke-width="2"/>
+  <circle cx="670" cy="760" r="8" fill="#111"/>
+  <line x1="682" y1="760" x2="735" y2="760" stroke="#111" stroke-width="2.5"/>
+  <path d="M748 760 L728 751 L728 769 Z" fill="#111"/>
+
+  <rect x="640" y="545" width="270" height="92" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="775" y="582" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">PLUSIEURS CHEMINS.</text>
+  <text x="775" y="611" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">IL FAUT TRANCHER.</text>
+  <circle cx="660" cy="655" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="670" cy="682" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="1040" width="760" height="158" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1092" font-size="19" fill="#111"><tspan font-weight="700">Décision</tspan> — Mécanisme qui apparaît lorsque l'organisme peut</text>
+  <text x="152" y="1119" font-size="19" fill="#111">structurellement utiliser plusieurs systèmes différents</text>
+  <text x="152" y="1146" font-size="19" fill="#111">à partir d'une nouvelle information.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 11 —</text>
+</svg>

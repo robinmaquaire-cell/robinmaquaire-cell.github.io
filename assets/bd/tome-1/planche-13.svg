@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p13-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case unique : la boucle -->
+  <rect x="60" y="60" width="880" height="1000" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="112" font-size="19" fill="#111">Le flux ne s'arrête pas.</text>
+
+  <!-- le monde extérieur : la zone que la boucle traverse -->
+  <path d="M360.5 839.1 A 330 330 0 0 1 200.9 679.5" fill="none" stroke="#d8d8d8" stroke-width="110"/>
+  <text x="200" y="900" text-anchor="middle" font-size="15" fill="#111">monde extérieur</text>
+
+  <!-- les quatre arcs du flux -->
+  <path d="M201 401 A 330 330 0 0 1 361 241" fill="none" stroke="#111" stroke-width="2.5"/>
+  <path d="M0 0 L-16 -7 L-16 7 Z" fill="#111" transform="translate(361,241) rotate(-25)"/>
+  <path d="M639.5 241 A 330 330 0 0 1 799 400.4" fill="none" stroke="#111" stroke-width="2.5"/>
+  <path d="M0 0 L-16 -7 L-16 7 Z" fill="#111" transform="translate(799,400.4) rotate(65)"/>
+  <path d="M799 679.6 A 330 330 0 0 1 639.5 839" fill="none" stroke="#111" stroke-width="2.5"/>
+  <path d="M0 0 L-16 -7 L-16 7 Z" fill="#111" transform="translate(639.5,839) rotate(155)"/>
+  <path d="M360.5 839.1 A 330 330 0 0 1 200.9 679.5" fill="none" stroke="#111" stroke-width="2.5"/>
+  <path d="M0 0 L-16 -7 L-16 7 Z" fill="#111" transform="translate(200.9,679.5) rotate(245)"/>
+
+  <!-- les quatre étapes -->
+  <rect x="90" y="508" width="190" height="64" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="185" y="547" text-anchor="middle" font-size="21" font-weight="600" fill="#111">Donnée</text>
+  <rect x="405" y="183" width="190" height="64" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="500" y="222" text-anchor="middle" font-size="21" font-weight="600" fill="#111">Information</text>
+  <rect x="720" y="508" width="190" height="64" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="815" y="547" text-anchor="middle" font-size="21" font-weight="600" fill="#111">Décision</text>
+  <rect x="405" y="833" width="190" height="64" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="500" y="872" text-anchor="middle" font-size="21" font-weight="600" fill="#111">Action</text>
+
+  <!-- l'organisme au centre -->
+  <circle cx="500" cy="540" r="80" fill="none" stroke="#111" stroke-width="2.5"/>
+  <use href="#p13-cell" transform="translate(500,540) scale(0.9)"/>
+
+  <rect x="620" y="940" width="310" height="92" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="775" y="977" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">J'AGIS SUR LE MONDE,</text>
+  <text x="775" y="1006" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">ET LE MONDE ME REVIENT.</text>
+  <circle cx="610" cy="928" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="601" cy="911" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="1120" width="760" height="130" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1172" font-size="19" fill="#111"><tspan font-weight="700">Boucle</tspan> — Dans les deux flux, l'action modifie le monde extérieur,</text>
+  <text x="152" y="1199" font-size="19" fill="#111">d'où proviennent de nouvelles données ; le flux recommence.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 13 —</text>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : Donnée -->
+  <rect x="62" y="62" width="148" height="616" fill="#d8d8d8" stroke="none"/>
+  <rect x="60" y="60" width="428" height="620" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="210" y1="80" x2="210" y2="660" stroke="#111" stroke-width="3"/>
+  <text x="340" y="142" text-anchor="middle" font-size="26" font-weight="700" letter-spacing="2" fill="#111">DONNÉE</text>
+  <circle cx="210" cy="370" r="9" fill="#111"/>
+  <line x1="120" y1="370" x2="182" y2="370" stroke="#111" stroke-width="3"/>
+  <path d="M196 370 L174 360 L174 380 Z" fill="#111"/>
+  <text x="340" y="652" text-anchor="middle" font-size="17" fill="#111">dehors → dedans</text>
+
+  <!-- Case 2 : Action — le même dessin, la flèche inversée -->
+  <rect x="514" y="62" width="148" height="616" fill="#d8d8d8" stroke="none"/>
+  <rect x="512" y="60" width="428" height="620" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="662" y1="80" x2="662" y2="660" stroke="#111" stroke-width="3"/>
+  <text x="800" y="142" text-anchor="middle" font-size="26" font-weight="700" letter-spacing="2" fill="#111">ACTION</text>
+  <circle cx="662" cy="370" r="9" fill="#111"/>
+  <line x1="586" y1="370" x2="648" y2="370" stroke="#111" stroke-width="3"/>
+  <path d="M572 370 L594 360 L594 380 Z" fill="#111"/>
+  <text x="800" y="652" text-anchor="middle" font-size="17" fill="#111">dedans → dehors</text>
+
+  <!-- Définitions -->
+  <rect x="84" y="720" width="380" height="180" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="112" y="766" font-size="17" fill="#111"><tspan font-weight="700">Donnée</tspan> — Modification unitaire</text>
+  <text x="112" y="790" font-size="17" fill="#111">de la position d'un atome dans</text>
+  <text x="112" y="814" font-size="17" fill="#111">sa structure, au niveau de la</text>
+  <text x="112" y="838" font-size="17" fill="#111">frontière, en provenance du</text>
+  <text x="112" y="862" font-size="17" fill="#111">monde extérieur.</text>
+
+  <rect x="536" y="720" width="380" height="180" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="564" y="766" font-size="17" fill="#111"><tspan font-weight="700">Action</tspan> — Modification unitaire</text>
+  <text x="564" y="790" font-size="17" fill="#111">de la position d'un atome dans</text>
+  <text x="564" y="814" font-size="17" fill="#111">sa structure, au niveau de la</text>
+  <text x="564" y="838" font-size="17" fill="#111">frontière, en provenance de</text>
+  <text x="564" y="862" font-size="17" fill="#111">l'intérieur de l'organisme.</text>
+
+  <text x="500" y="975" text-anchor="middle" font-size="19" fill="#111">À cette échelle, recevoir et agir sont le même événement</text>
+  <text x="500" y="1002" text-anchor="middle" font-size="19" fill="#111">physique, parcouru dans deux sens opposés.</text>
+
+  <rect x="265" y="1075" width="470" height="92" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="500" y="1112" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">RECEVOIR, AGIR : LE MÊME GESTE,</text>
+  <text x="500" y="1141" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">DANS LES DEUX SENS.</text>
+  <circle cx="475" cy="1052" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="462" cy="1032" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 9 —</text>
+</svg>

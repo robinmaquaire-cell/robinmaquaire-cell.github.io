@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p06-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+    <g id="p06-strip">
+      <use href="#p06-cell" x="-40" y="0"/>
+      <use href="#p06-cell" x="40" y="0"/>
+    </g>
+    <g id="p06-lat">
+      <line x1="-44" y1="-22" x2="44" y2="-22" stroke="#111" stroke-width="2"/>
+      <line x1="-44" y1="22" x2="44" y2="22" stroke="#111" stroke-width="2"/>
+      <line x1="-44" y1="-22" x2="-44" y2="22" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="-22" x2="0" y2="22" stroke="#111" stroke-width="2"/>
+      <line x1="44" y1="-22" x2="44" y2="22" stroke="#111" stroke-width="2"/>
+      <circle cx="-44" cy="-22" r="6" fill="#111"/>
+      <circle cx="0" cy="-22" r="6" fill="#111"/>
+      <circle cx="44" cy="-22" r="6" fill="#111"/>
+      <circle cx="-44" cy="22" r="6" fill="#111"/>
+      <circle cx="0" cy="22" r="6" fill="#111"/>
+      <circle cx="44" cy="22" r="6" fill="#111"/>
+    </g>
+    <g id="p06-chain">
+      <line x1="-88" y1="10" x2="-44" y2="-10" stroke="#111" stroke-width="2"/>
+      <line x1="-44" y1="-10" x2="0" y2="10" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="10" x2="44" y2="-10" stroke="#111" stroke-width="2"/>
+      <line x1="44" y1="-10" x2="88" y2="10" stroke="#111" stroke-width="2"/>
+      <circle cx="-88" cy="10" r="6" fill="#111"/>
+      <circle cx="-44" cy="-10" r="6" fill="#111"/>
+      <circle cx="0" cy="10" r="6" fill="#111"/>
+      <circle cx="44" cy="-10" r="6" fill="#111"/>
+      <circle cx="88" cy="10" r="6" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : des systèmes -->
+  <rect x="60" y="60" width="880" height="540" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="120" font-size="19" fill="#111">Des structures physiques mises en mouvement par de l'énergie :</text>
+  <text x="92" y="147" font-size="19" fill="#111">un système.</text>
+  <use href="#p06-strip" transform="translate(290,300)"/>
+  <path d="M210 215 Q 290 175 364 208" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M370 212 L347 208 L358 191 Z" fill="#111"/>
+  <use href="#p06-lat" transform="translate(660,260)"/>
+  <path d="M590 190 Q 660 155 724 186" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M730 190 L707 186 L718 169 Z" fill="#111"/>
+  <use href="#p06-chain" transform="translate(450,480)"/>
+  <path d="M370 415 Q 450 378 524 410" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M530 414 L507 410 L518 393 Z" fill="#111"/>
+
+  <!-- Case 2 : rien de plus -->
+  <rect x="60" y="624" width="880" height="430" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="684" font-size="19" fill="#111">De la matière en mouvement. Rien de plus.</text>
+  <use href="#p06-strip" transform="translate(230,780) scale(0.75)"/>
+  <path d="M172 726 Q 230 700 284 722" fill="none" stroke="#111" stroke-width="1.8" stroke-dasharray="5 5"/>
+  <path d="M288 725 L270 722 L278 708 Z" fill="#111"/>
+  <use href="#p06-lat" transform="translate(620,760) scale(0.75)"/>
+  <path d="M575 712 Q 620 690 662 709" fill="none" stroke="#111" stroke-width="1.8" stroke-dasharray="5 5"/>
+  <path d="M666 712 L648 709 L656 695 Z" fill="#111"/>
+  <use href="#p06-chain" transform="translate(430,900) scale(0.75)"/>
+  <path d="M370 855 Q 430 832 486 852" fill="none" stroke="#111" stroke-width="1.8" stroke-dasharray="5 5"/>
+  <path d="M490 855 L472 852 L480 838 Z" fill="#111"/>
+
+  <rect x="620" y="930" width="300" height="60" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="770" y="968" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">NE SUIS-JE QUE CELA ?</text>
+  <circle cx="605" cy="918" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="588" cy="900" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="574" cy="886" r="2" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="1120" width="760" height="130" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1172" font-size="19" fill="#111"><tspan font-weight="700">Système</tspan> — Ensemble de structures physiques mises en mouvement</text>
+  <text x="152" y="1199" font-size="19" fill="#111">par de l'énergie.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 6 —</text>
+</svg>

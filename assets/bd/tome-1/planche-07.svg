@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <g id="p07-cell">
+      <path d="M34 0 L17 29.4 L-17 29.4 L-34 0 L-17 -29.4 L17 -29.4 Z" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-34" y2="0" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="0" x2="17" y2="-29.4" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="0" r="7" fill="#111"/>
+      <circle cx="34" cy="0" r="7" fill="#111"/>
+      <circle cx="17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-17" cy="29.4" r="7" fill="#111"/>
+      <circle cx="-34" cy="0" r="7" fill="#111"/>
+      <circle cx="-17" cy="-29.4" r="7" fill="#111"/>
+      <circle cx="17" cy="-29.4" r="7" fill="#111"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="1414" fill="#ffffff"/>
+
+  <!-- Case 1 : la dispersion -->
+  <rect x="60" y="60" width="428" height="500" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="92" y="120" font-size="19" fill="#111">Certains ensembles se dispersent.</text>
+  <line x1="230" y1="208" x2="318" y2="208" stroke="#111" stroke-width="2"/>
+  <line x1="230" y1="252" x2="318" y2="252" stroke="#111" stroke-width="2"/>
+  <line x1="230" y1="208" x2="230" y2="252" stroke="#111" stroke-width="2"/>
+  <line x1="274" y1="208" x2="274" y2="252" stroke="#111" stroke-width="2"/>
+  <line x1="318" y1="208" x2="318" y2="252" stroke="#111" stroke-width="2"/>
+  <circle cx="230" cy="208" r="6" fill="#111"/>
+  <circle cx="274" cy="208" r="6" fill="#111"/>
+  <circle cx="318" cy="208" r="6" fill="#111"/>
+  <circle cx="230" cy="252" r="6" fill="#111"/>
+  <circle cx="274" cy="252" r="6" fill="#111"/>
+  <circle cx="318" cy="252" r="6" fill="#111"/>
+  <line x1="230" y1="252" x2="180" y2="400" stroke="#d8d8d8" stroke-width="2" stroke-dasharray="5 6"/>
+  <line x1="274" y1="252" x2="300" y2="440" stroke="#d8d8d8" stroke-width="2" stroke-dasharray="5 6"/>
+  <line x1="318" y1="252" x2="370" y2="380" stroke="#d8d8d8" stroke-width="2" stroke-dasharray="5 6"/>
+  <circle cx="180" cy="400" r="6" fill="#d8d8d8"/>
+  <circle cx="300" cy="440" r="6" fill="#d8d8d8"/>
+  <circle cx="370" cy="380" r="6" fill="#d8d8d8"/>
+
+  <!-- Case 2 : l'articulation qui fait durer -->
+  <rect x="512" y="60" width="428" height="500" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="544" y="120" font-size="19" fill="#111">D'autres sont articulés pour faire</text>
+  <text x="544" y="147" font-size="19" fill="#111">perdurer leurs structures</text>
+  <text x="544" y="174" font-size="19" fill="#111">et leurs comportements.</text>
+  <use href="#p07-cell" transform="translate(726,340) scale(1.2)"/>
+  <circle cx="800" cy="220" r="8" fill="#d8d8d8"/>
+  <line x1="800" y1="220" x2="750" y2="298" stroke="#d8d8d8" stroke-width="2" stroke-dasharray="5 6"/>
+  <line x1="788" y1="238" x2="758" y2="285" stroke="#111" stroke-width="2.5"/>
+  <path d="M752 295 L756 272 L773 284 Z" fill="#111"/>
+
+  <!-- Case 3 : les deux faces -->
+  <rect x="60" y="584" width="880" height="370" fill="none" stroke="#111" stroke-width="2"/>
+  <use href="#p07-cell" transform="translate(400,780) scale(1.3)"/>
+  <path d="M520 780 Q 570 742 614 772" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M620 776 L598 772 L608 755 Z" fill="#111"/>
+  <path d="M620 776 Q 670 738 714 768" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M720 772 L698 768 L708 751 Z" fill="#111"/>
+  <text x="400" y="912" text-anchor="middle" font-size="17" fill="#111">sa forme</text>
+  <line x1="400" y1="893" x2="400" y2="858" stroke="#111" stroke-width="1.5"/>
+  <text x="700" y="702" text-anchor="middle" font-size="17" fill="#111">sa dynamique</text>
+  <line x1="700" y1="714" x2="700" y2="748" stroke="#111" stroke-width="1.5"/>
+
+  <rect x="560" y="614" width="340" height="60" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="730" y="652" text-anchor="middle" font-size="21" font-weight="600" letter-spacing="0.5" fill="#111">JE SUIS FAIT POUR DURER.</text>
+  <circle cx="543" cy="696" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="520" cy="720" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="502" cy="740" r="2" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <!-- Définition -->
+  <rect x="120" y="1010" width="760" height="185" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="152" y="1060" font-size="19" fill="#111"><tspan font-weight="700">Organisme</tspan> — Ensemble de structures physiques mises en mouvement</text>
+  <text x="152" y="1087" font-size="19" fill="#111">par de l'énergie, étant articulées afin de faire perdurer</text>
+  <text x="152" y="1114" font-size="19" fill="#111">ses structures physiques et ses comportements le plus</text>
+  <text x="152" y="1141" font-size="19" fill="#111">longtemps possible.</text>
+
+  <text x="500" y="1256" text-anchor="middle" font-size="19" fill="#111">Cette volonté de perdurer n'a pas besoin d'être ajoutée : elle est</text>
+  <text x="500" y="1283" text-anchor="middle" font-size="19" fill="#111">constitutive — c'est elle qui fait qu'un système est un organisme.</text>
+
+  <text x="500" y="1392" text-anchor="middle" font-size="15" fill="#111">— 7 —</text>
+</svg>

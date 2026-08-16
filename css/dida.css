@@ -151,6 +151,196 @@
   font-weight: 600;
 }
 
+/* Annonce de la bande dessinée, sur la page DIDA */
+.bd-teaser {
+  display: grid;
+  grid-template-columns: minmax(0, 210px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  padding: 1.6rem;
+}
+
+.bd-teaser__cover img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1000 / 1414;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  box-shadow: 0 10px 26px rgba(42, 36, 56, 0.12);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bd-teaser__cover:hover img {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(42, 36, 56, 0.18);
+}
+
+.bd-teaser__text h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.bd-teaser__text p {
+  color: var(--muted);
+  max-width: 56ch;
+}
+
+.bd-teaser__note {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-top: 0.6rem;
+}
+
+.bd-teaser .btn {
+  margin-top: 1.4rem;
+}
+
+@media (max-width: 640px) {
+  .bd-teaser {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .bd-teaser__cover {
+    max-width: 210px;
+  }
+}
+
+/* ============ Bande dessinée (dida-bd.html) ============ */
+
+/* Fil d'Ariane vers la page mère */
+.bd-breadcrumb {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.9rem;
+}
+
+.bd-breadcrumb span {
+  margin: 0 0.35rem;
+}
+
+/* Bandeau d'état sous le titre du tome */
+.bd-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.4rem;
+  list-style: none;
+  margin-top: 1.6rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.bd-meta__draft {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Sommaire des planches */
+.bd-toc-head {
+  margin-top: 3rem;
+}
+
+.bd-toc {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  border-top: 1px solid var(--border);
+  margin-top: 1rem;
+}
+
+.bd-toc li {
+  border-bottom: 1px solid var(--border);
+}
+
+.bd-toc a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  padding: 0.6rem 0.3rem;
+  color: var(--text);
+}
+
+.bd-toc a:hover {
+  color: var(--accent);
+}
+
+.bd-toc__num {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Les planches, en défilement vertical */
+.bd-plates {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2.5rem, 6vw, 4rem);
+}
+
+.bd-plate {
+  scroll-margin-top: 150px;
+}
+
+.bd-plate__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  max-width: 780px;
+  margin: 0 auto 0.7rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  color: var(--text);
+}
+
+.bd-plate__num {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+/* La feuille : toujours blanche, quel que soit le fond de la section.
+   C'est un lien : un clic ouvre la planche seule, à sa taille réelle — la
+   seule façon de lire les cartouches sur un écran étroit. */
+.bd-sheet {
+  display: block;
+  max-width: 780px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(42, 36, 56, 0.08), 0 14px 34px rgba(42, 36, 56, 0.1);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.bd-sheet:hover {
+  border-color: var(--accent);
+  box-shadow: 0 1px 2px rgba(42, 36, 56, 0.08), 0 18px 40px rgba(42, 36, 56, 0.18);
+}
+
+.bd-sheet:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.bd-sheet img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1000 / 1414;
+}
+
 /* Citation / encadré réflexion */
 .pullquote {
   border-left: 3px solid var(--accent);
