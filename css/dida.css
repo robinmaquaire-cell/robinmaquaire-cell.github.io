@@ -137,6 +137,20 @@
   letter-spacing: 0.08em;
 }
 
+/* Définition exacte du socle, en retrait sous l'image de chaque carte */
+.card .socle-def {
+  margin-top: 1rem;
+  padding: 0.15rem 0 0.15rem 0.9rem;
+  border-left: 2px solid var(--border);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.socle-def strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 /* Citation / encadré réflexion */
 .pullquote {
   border-left: 3px solid var(--accent);
