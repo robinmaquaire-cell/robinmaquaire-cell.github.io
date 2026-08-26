@@ -7,6 +7,12 @@
       "runtimeArgs": ["--yes", "serve", "."],
       "port": 3000,
       "autoPort": true
+    },
+    {
+      "name": "edition",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["_edit/serveur.js"],
+      "port": 4321
     }
   ]
 }

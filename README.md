@@ -46,6 +46,7 @@ css/<facette>.css   un thème par facette : couleurs, polices, héros
 js/carousel.js      clavier et glissement tactile
 assets/             vignettes du carrousel (SVG)
 assets/bd/tome-1/   les 15 planches de la bande dessinée (SVG)
+_edit/              écran d'édition local des textes (jamais publié)
 ```
 
 Chaque thème ne définit que des variables CSS (`--bg`, `--accent`, `--text`…) que
@@ -60,6 +61,25 @@ Site statique : n'importe quel serveur HTTP suffit.
 npx --yes serve .
 ```
 
+## Écran d'édition des textes
+
+```bash
+node _edit/serveur.js
+```
+
+puis http://localhost:4321 : le site s'affiche avec une barre d'édition en bas
+à droite. « Éditer les textes » rend chaque bloc de texte modifiable en place
+(titre de l'onglet compris) ; « Enregistrer » réécrit les fichiers HTML au plus
+juste — seul le texte modifié change, entités (`&nbsp;`, `&#8201;`…) et mise en
+forme du fichier préservées ; « Publier » fait le commit et le push, donc le
+déploiement.
+
+Privé par construction : le serveur n'écoute que sur 127.0.0.1 et le dossier
+`_edit/`, préfixé d'un underscore, n'est pas publié par GitHub Pages. Les
+planches de la bande dessinée sont hors périmètre : ce sont des copies, elles
+se modifient dans le corpus (`Projects/DIDA`).
+
 ## Déploiement
 
 Publié par GitHub Pages depuis la branche `main`, à la racine du dépôt.
+Un push sur `main` suffit : le site est à jour une à deux minutes après.
