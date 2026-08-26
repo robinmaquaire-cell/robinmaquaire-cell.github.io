@@ -115,6 +115,107 @@
       </div>
     </section>
 
+    <section class="section" id="benchmark">
+      <div class="section-inner">
+        <h2>Pourquoi l'analytique embarquée SAP&nbsp;?</h2>
+        <p class="section-sub">Quand la gestion vit dans S/4HANA, la première question n'est pas
+          «&nbsp;quel outil de dataviz&nbsp;?&nbsp;» mais «&nbsp;faut-il vraiment sortir les
+          données&nbsp;?&nbsp;». Le vrai match&nbsp;: l'analytique embarquée dans l'ERP — vues CDS,
+          apps Fiori, tuiles KPI — face à la pile externe, entrepôt Snowflake et restitution
+          Power BI ou Qlik Sense.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="picto">⚡</span>
+            <h3>Le chiffre de l'ERP, à l'instant même</h3>
+            <p>Les vues CDS lisent les tables de gestion en direct, en mémoire&nbsp;: zéro
+              extraction, zéro réplication, zéro délai. La pile externe vit au rythme de ses
+              pipelines — souvent sur les chiffres de la veille.</p>
+          </article>
+          <article class="card">
+            <span class="picto">🎯</span>
+            <h3>Une seule source de vérité</h3>
+            <p>Pas de copie des données, donc pas d'écart à réconcilier entre le tableau de bord
+              et la transaction. Fin du «&nbsp;pourquoi le dashboard dit 4,2&nbsp;M€ et
+              SAP&nbsp;4,3&nbsp;?&nbsp;».</p>
+          </article>
+          <article class="card">
+            <span class="picto">🔐</span>
+            <h3>Des autorisations héritées telles quelles</h3>
+            <p>Rôles et périmètres organisationnels SAP s'appliquent nativement aux analyses.
+              Dans la pile externe, toute la sécurité est à re-modéliser — puis à maintenir en
+              double.</p>
+          </article>
+          <article class="card">
+            <span class="picto">🚀</span>
+            <h3>Du chiffre à l'action, sans changer d'écran</h3>
+            <p>Tuile KPI, analyse, document d'origine, action corrective&nbsp;: tout se passe
+              dans la même app Fiori. L'analytique vit dans le processus au lieu de le regarder
+              de loin.</p>
+          </article>
+        </div>
+        <h3 class="bench-h3">Le match, critère par critère</h3>
+        <div class="bench-table-wrap">
+          <table class="bench-table">
+            <thead>
+              <tr>
+                <th scope="col">Critère</th>
+                <th scope="col">Embarqué SAP <span class="bench-col-sub">S/4HANA</span></th>
+                <th scope="col">Pile externe <span class="bench-col-sub">Snowflake + Power&nbsp;BI / Qlik</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Fraîcheur des données</th>
+                <td class="win">✓&nbsp;Temps réel, lecture directe des tables</td>
+                <td>Au rythme des pipelines, souvent J-1</td>
+              </tr>
+              <tr>
+                <th scope="row">Source de vérité</th>
+                <td class="win">✓&nbsp;L'ERP lui-même, sans copie</td>
+                <td>Des copies à réconcilier</td>
+              </tr>
+              <tr>
+                <th scope="row">Sécurité</th>
+                <td class="win">✓&nbsp;Rôles SAP hérités</td>
+                <td>À re-modéliser en double</td>
+              </tr>
+              <tr>
+                <th scope="row">Du chiffre à l'action</th>
+                <td class="win">✓&nbsp;Même écran Fiori</td>
+                <td>Retour manuel vers l'ERP</td>
+              </tr>
+              <tr>
+                <th scope="row">Mise en œuvre</th>
+                <td class="win">✓&nbsp;Contenu standard livré (VDM, apps Fiori, tuiles KPI)</td>
+                <td>Entrepôt, flux et modèles à construire</td>
+              </tr>
+              <tr>
+                <th scope="row">Coût de possession</th>
+                <td class="win">✓&nbsp;Inclus dans le socle S/4HANA</td>
+                <td>Infra + licences + maintenance des flux</td>
+              </tr>
+              <tr>
+                <th scope="row">Croiser SAP et non-SAP</th>
+                <td>Limité au périmètre de l'ERP</td>
+                <td class="win">✓&nbsp;Toutes sources&nbsp;: son terrain</td>
+              </tr>
+              <tr>
+                <th scope="row">Historique long, data science</th>
+                <td>Ce n'est pas son rôle</td>
+                <td class="win">✓&nbsp;Conçu pour</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="bench-verdict">
+          <p><strong>Ma règle.</strong> Le reporting opérationnel des équipes qui travaillent dans
+            SAP se joue dans SAP. La pile externe entre en jeu pour croiser les sources, historiser
+            sur des années ou servir des utilisateurs hors ERP&nbsp;: les deux se complètent —
+            c'est le sens de <a href="#outils">mes outils</a>.</p>
+        </aside>
+      </div>
+    </section>
+
     <section class="section contact" id="contact">
       <div class="section-inner">
         <h2>Travaillons ensemble</h2>
